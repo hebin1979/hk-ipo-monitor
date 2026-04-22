@@ -400,6 +400,46 @@
             text-align: center;
         }
 
+        /* 打新收益统计 */
+        .profit-summary {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 12px;
+        }
+
+        .profit-item {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 12px 8px;
+            text-align: center;
+        }
+
+        .profit-label {
+            font-size: 12px;
+            color: #666;
+            margin-bottom: 4px;
+        }
+
+        .profit-value {
+            font-size: 16px;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+
+        .profit-value.positive {
+            color: #e94560;
+        }
+
+        .profit-value.negative {
+            color: #28a745;
+        }
+
+        @media (max-width: 480px) {
+            .profit-summary {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
         /* 页脚 */
         .footer {
             text-align: center;
@@ -1016,46 +1056,38 @@
             </div>
         </div>
 
-        <!-- 行业估值对比 -->
+        <!-- 2026年打新收益统计 -->
         <div class="card">
-            <div class="card-title">📊 行业估值对比分析</div>
+            <div class="card-title">💰 2026年打新收益统计</div>
             
-            <table class="industry-table">
-                <thead>
-                    <tr>
-                        <th>行业分类</th>
-                        <th>平均PE</th>
-                        <th>平均PB</th>
-                        <th>投资建议</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>AI芯片/算力</td>
-                        <td>45x</td>
-                        <td>3.2x</td>
-                        <td>激进型</td>
-                    </tr>
-                    <tr>
-                        <td>创新药(ADC/TCE)</td>
-                        <td>N/A</td>
-                        <td>2.8x</td>
-                        <td>专业投资者</td>
-                    </tr>
-                    <tr>
-                        <td>智能硬件ODM</td>
-                        <td>18x</td>
-                        <td>1.5x</td>
-                        <td>价值型</td>
-                    </tr>
-                    <tr>
-                        <td>商业物联网</td>
-                        <td>32x</td>
-                        <td>2.1x</td>
-                        <td>成长型</td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="profit-summary">
+                <div class="profit-item">
+                    <div class="profit-label">打新总收益</div>
+                    <div class="profit-value positive">+124,530港元</div>
+                </div>
+                <div class="profit-item">
+                    <div class="profit-label">参与新股数</div>
+                    <div class="profit-value">29只</div>
+                </div>
+                <div class="profit-item">
+                    <div class="profit-label">盈利新股</div>
+                    <div class="profit-value positive">22只</div>
+                </div>
+                <div class="profit-item">
+                    <div class="profit-label">亏损新股</div>
+                    <div class="profit-value negative">7只</div>
+                </div>
+                <div class="profit-item">
+                    <div class="profit-label">胜率</div>
+                    <div class="profit-value">75.9%</div>
+                </div>
+                <div class="profit-item">
+                    <div class="profit-label">平均每手收益</div>
+                    <div class="profit-value positive">+4,295港元</div>
+                </div>
+            </div>
+            
+            <p style="font-size: 12px; color: #666; margin-top: 12px;">* 计算方式：每只新股中签一手，上市首日开盘价卖出</p>
         </div>
 
         <!-- 风险提示 -->
