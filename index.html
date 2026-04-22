@@ -441,10 +441,17 @@
                 font-size: 16px;
             }
 
+            .stock-header {
+                flex-direction: row;
+                align-items: flex-start;
+                justify-content: space-between;
+            }
+
             .stock-rating {
-                font-size: 14px;
+                font-size: 12px;
                 padding: 6px 12px;
-                min-width: 80px;
+                min-width: 70px;
+                flex-shrink: 0;
             }
 
             .listing-stock {
@@ -707,49 +714,14 @@
         <div class="card">
             <div class="card-title">🚀 明日上市（1只）</div>
             
-            <div class="ipo-stock">
-                <div class="stock-header">
-                    <div>
-                        <div class="stock-name">华勤技术</div>
-                        <div class="stock-code">03296.HK | 智能硬件ODM巨头 | A+H双平台 | 保荐人：高盛、摩根士丹利</div>
-                    </div>
+            <div class="listing-stock">
+                <div class="stock-info-left">
+                    <div class="stock-name">华勤技术</div>
+                    <div class="stock-code">03296.HK | 智能硬件ODM巨头 | A+H双平台</div>
                 </div>
-                
-                <div class="stock-info">
-                    <div class="info-item">
-                        <div class="info-label">发行价</div>
-                        <div class="info-value">77.70港元</div>
-                    </div>
-                    <div class="info-item">
-                        <div class="info-label">每手股数</div>
-                        <div class="info-value">100股</div>
-                    </div>
-                    <div class="info-item">
-                        <div class="info-label">入场费</div>
-                        <div class="info-value">7,851港元</div>
-                    </div>
-                    <div class="info-item">
-                        <div class="info-label">超额认购</div>
-                        <div class="info-value">32.54倍</div>
-                    </div>
-                    <div class="info-item">
-                        <div class="info-label">募资规模</div>
-                        <div class="info-value">45.8亿港元</div>
-                    </div>
-                    <div class="info-item">
-                        <div class="info-label">暗盘表现</div>
-                        <div class="info-value">+0.39%</div>
-                    </div>
-                </div>
-
-                <div class="section-content">
-                    <div class="section-title positive">✅ 公司亮点</div>
-                    <ul class="section-list">
-                        <li>智能硬件ODM龙头：全球最大的智能手机ODM厂商</li>
-                        <li>A+H双平台上市：此前已在上交所上市</li>
-                        <li>客户优质：小米、OPPO、vivo等一线手机品牌</li>
-                        <li>多元化布局：笔电、平板、智能穿戴等业务快速增长</li>
-                    </ul>
+                <div class="listing-price">
+                    <div class="price">77.70港元</div>
+                    <div class="date">明日(4/23)上市</div>
                 </div>
             </div>
         </div>
@@ -780,15 +752,6 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>03030</td>
-                            <td>南方黄金</td>
-                            <td>4/21</td>
-                            <td>待公布</td>
-                            <td>--</td>
-                            <td class="positive">+50.00%</td>
-                            <td class="positive">+0.62%</td>
-                        </tr>
                         <tr>
                             <td>02476</td>
                             <td>胜宏科技</td>
