@@ -1071,11 +1071,34 @@
     </div>
 
     <script>
-        // 简单的筛选功能
+        // 筛选功能 - 根据股票名称关键词匹配
+        const industryKeywords = {
+            'AI/芯片': ['芯', '科技', '智能', '芯片', '算力', 'AI', '电子', '半导体', '光'],
+            '医药生物': ['生物', '医药', '药', '医疗', '基因', '-B', '健康'],
+            '智能硬件': ['硬件', 'ODM', '制造', '装备', '机器人', '设备']
+        };
+
         document.querySelectorAll('.filter-btn').forEach(btn => {
             btn.addEventListener('click', function() {
+                // 切换按钮状态
                 document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
                 this.classList.add('active');
+                
+                // 获取筛选的行业
+                const filterName = this.textContent.trim();
+                const rows = document.querySelectorAll('.ipo-table tbody tr');
+                
+                rows.forEach(row => {
+                    const stockName = row.cells[1].textContent;
+                    
+                    if (filterName === '全部') {
+                        row.style.display = '';
+                    } else {
+                        const keywords = industryKeywords[filterName] || [];
+                        const matches = keywords.some(kw => stockName.includes(kw));
+                        row.style.display = matches ? '' : 'none';
+                    }
+                });
             });
         });
 
