@@ -156,15 +156,20 @@
             text-align: center;
             min-width: 80px;
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             align-items: center;
+            justify-content: center;
+            gap: 6px;
+        }
+
+        .stock-rating-label {
+            font-size: 12px;
+            font-weight: 400;
         }
 
         .stock-rating-score {
-            font-size: 14px;
+            font-size: 16px;
             font-weight: 700;
-            opacity: 1;
-            display: block;
         }
 
         .stock-rating.medium {
@@ -450,8 +455,12 @@
             .stock-rating {
                 font-size: 14px;
                 padding: 8px 14px;
-                min-width: 75px;
+                min-width: 85px;
                 flex-shrink: 0;
+            }
+
+            .stock-rating-label {
+                font-size: 11px;
             }
 
             .stock-rating-score {
@@ -517,8 +526,8 @@
                         <div class="stock-code">01879.HK | 全球AI硅光芯片第一股 | 保荐人：中金香港</div>
                     </div>
                     <div class="stock-rating">
-                        <span class="stock-rating-score">购买评级</span>
-                        8.5分
+                        <span class="stock-rating-label">购买评级</span>
+                        <span class="stock-rating-score">8.5分</span>
                     </div>
                 </div>
                 
@@ -585,8 +594,8 @@
                         <div class="stock-code">06810.HK | AI商业物联网第一股 | 保荐人：德意志银行</div>
                     </div>
                     <div class="stock-rating medium">
-                        <span class="stock-rating-score">购买评级</span>
-                        7.5分
+                        <span class="stock-rating-label">购买评级</span>
+                        <span class="stock-rating-score">7.5分</span>
                     </div>
                 </div>
                 
@@ -653,8 +662,8 @@
                         <div class="stock-code">02493.HK | ADC/TCE创新药企 | 保荐人：中信证券</div>
                     </div>
                     <div class="stock-rating low">
-                        <span class="stock-rating-score">购买评级</span>
-                        6.5分
+                        <span class="stock-rating-label">购买评级</span>
+                        <span class="stock-rating-score">6.5分</span>
                     </div>
                 </div>
                 
