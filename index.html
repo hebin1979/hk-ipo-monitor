@@ -438,6 +438,11 @@
             .profit-summary {
                 grid-template-columns: repeat(2, 1fr);
             }
+
+        .profit-summary {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+        }
         }
 
         /* 页脚 */
@@ -549,9 +554,9 @@
         <!-- 时间提醒 -->
         <div class="card">
             <div class="time-alert">
-                <p>⏰ 曦智科技-P 和 迈威生物-B 的招股将于 <strong>明日(4/23)中午</strong> 截止！</p>
-                <p>⏰ 商米科技-W 的招股将于 <strong>4/24中午</strong> 截止！</p>
-                <p>📢 华勤技术的招股将于 <strong>4/25</strong> 开始！</p>
+                <p>⏰ 曦智科技-P 和 迈威生物-B 的招股将于 <strong>4/23（明日）</strong> 中午截止！</p>
+                <p>⏰ 商米科技-W 的招股将于 <strong>4/24（后天）</strong> 中午截止！</p>
+                <p>📢 华勤技术的招股将于 <strong>4/25（3天后）</strong> 开始！</p>
             </div>
         </div>
 
@@ -767,14 +772,6 @@
         <!-- 2026年已上市新股 -->
         <div class="card">
             <div class="card-title">📋 2026年已上市新股</div>
-            
-            <div class="filter-bar">
-                <button class="filter-btn active">全部</button>
-                <button class="filter-btn">AI/芯片</button>
-                <button class="filter-btn">医药生物</button>
-                <button class="filter-btn">智能硬件</button>
-                <button class="filter-btn">其他</button>
-            </div>
 
             <div class="ipo-table">
                 <table>
@@ -1062,12 +1059,12 @@
             
             <div class="profit-summary">
                 <div class="profit-item">
-                    <div class="profit-label">打新总收益</div>
+                    <div class="profit-label">总收益</div>
                     <div class="profit-value positive">+124,530港元</div>
                 </div>
                 <div class="profit-item">
-                    <div class="profit-label">参与新股数</div>
-                    <div class="profit-value">29只</div>
+                    <div class="profit-label">收益率</div>
+                    <div class="profit-value positive">+42.3%</div>
                 </div>
                 <div class="profit-item">
                     <div class="profit-label">盈利新股</div>
@@ -1077,16 +1074,8 @@
                     <div class="profit-label">亏损新股</div>
                     <div class="profit-value negative">7只</div>
                 </div>
-                <div class="profit-item">
-                    <div class="profit-label">胜率</div>
-                    <div class="profit-value">75.9%</div>
-                </div>
-                <div class="profit-item">
-                    <div class="profit-label">平均每手收益</div>
-                    <div class="profit-value positive">+4,295港元</div>
-                </div>
             </div>
-            
+
             <p style="font-size: 12px; color: #666; margin-top: 12px;">* 计算方式：每只新股中签一手，上市首日开盘价卖出</p>
         </div>
 
