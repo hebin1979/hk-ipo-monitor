@@ -56,12 +56,6 @@
             opacity: 0.9;
         }
 
-        .header .update-time {
-            font-size: 12px;
-            opacity: 0.7;
-            margin-top: 8px;
-        }
-
         /* 移动端适配 */
         @media (max-width: 768px) {
             body {
@@ -136,6 +130,8 @@
             justify-content: space-between;
             align-items: flex-start;
             margin-bottom: 12px;
+            flex-wrap: wrap;
+            gap: 10px;
         }
 
         .stock-name {
@@ -147,15 +143,26 @@
         .stock-code {
             font-size: 14px;
             color: var(--text-secondary);
+            margin-top: 4px;
         }
 
         .stock-rating {
             background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
             color: white;
-            padding: 4px 12px;
+            padding: 8px 16px;
             border-radius: 20px;
-            font-size: 14px;
-            font-weight: 600;
+            font-size: 16px;
+            font-weight: 700;
+            text-align: center;
+            min-width: 100px;
+        }
+
+        .stock-rating-score {
+            font-size: 12px;
+            font-weight: 400;
+            opacity: 0.9;
+            display: block;
+            margin-top: 2px;
         }
 
         .stock-rating.medium {
@@ -209,7 +216,7 @@
         }
 
         .score-item {
-            font-size: 12px;
+            font-size: 13px;
             color: var(--text-secondary);
         }
 
@@ -263,6 +270,13 @@
             background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);
             border-radius: 12px;
             margin-bottom: 12px;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .listing-stock .stock-info-left {
+            flex: 1;
+            min-width: 200px;
         }
 
         .listing-stock .stock-name {
@@ -424,6 +438,22 @@
             .stock-name {
                 font-size: 16px;
             }
+
+            .stock-rating {
+                font-size: 14px;
+                padding: 6px 12px;
+                min-width: 80px;
+            }
+
+            .listing-stock {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .listing-price {
+                text-align: left;
+                width: 100%;
+            }
         }
 
         /* PC端优化 */
@@ -444,11 +474,6 @@
                 grid-template-columns: repeat(5, 1fr);
             }
         }
-
-        /* 设备检测提示 - 隐藏但可用 */
-        .device-hint {
-            display: none;
-        }
     </style>
 </head>
 <body>
@@ -457,7 +482,6 @@
         <div class="header">
             <h1>📊 港股新股监测系统 V2.0</h1>
             <div class="subtitle">基于AI的智能新股分析与预警平台</div>
-            <div class="update-time">最后更新：2026年4月22日 11:12 | 数据来源：富途牛牛、etnet</div>
         </div>
 
         <!-- 时间提醒 -->
@@ -479,7 +503,10 @@
                         <div class="stock-name">曦智科技-P</div>
                         <div class="stock-code">01879.HK | 全球AI硅光芯片第一股 | 保荐人：中金香港</div>
                     </div>
-                    <div class="stock-rating">8.5分 购买评级</div>
+                    <div class="stock-rating">
+                        8.5分
+                        <span class="stock-rating-score">购买评级</span>
+                    </div>
                 </div>
                 
                 <div class="stock-info">
@@ -544,7 +571,10 @@
                         <div class="stock-name">商米科技-W</div>
                         <div class="stock-code">06810.HK | AI商业物联网第一股 | 保荐人：德意志银行</div>
                     </div>
-                    <div class="stock-rating medium">7.5分 购买评级</div>
+                    <div class="stock-rating medium">
+                        7.5分
+                        <span class="stock-rating-score">购买评级</span>
+                    </div>
                 </div>
                 
                 <div class="stock-info">
@@ -579,7 +609,10 @@
                         <div class="stock-name">迈威生物-B</div>
                         <div class="stock-code">02493.HK | ADC/TCE创新药企 | 保荐人：中信证券</div>
                     </div>
-                    <div class="stock-rating low">6.5分 购买评级</div>
+                    <div class="stock-rating low">
+                        6.5分
+                        <span class="stock-rating-score">购买评级</span>
+                    </div>
                 </div>
                 
                 <div class="stock-info">
@@ -613,7 +646,7 @@
             <div class="card-title">🚀 明日上市（1只）</div>
             
             <div class="listing-stock">
-                <div>
+                <div class="stock-info-left">
                     <div class="stock-name">华勤技术</div>
                     <div class="stock-code">03296.HK | 智能硬件ODM巨头 | A+H双平台</div>
                 </div>
@@ -626,7 +659,7 @@
 
         <!-- 2026年已上市新股 -->
         <div class="card">
-            <div class="card-title">📋 2026年已上市新股（50只）</div>
+            <div class="card-title">📋 2026年已上市新股</div>
             
             <div class="filter-bar">
                 <button class="filter-btn active">全部</button>
@@ -651,31 +684,13 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>06656</td>
-                            <td>思格新能</td>
-                            <td>4/16</td>
-                            <td>324.20</td>
-                            <td class="positive">+84.45%</td>
-                            <td class="positive">+103.42%</td>
-                            <td class="positive">+68.11%</td>
-                        </tr>
-                        <tr>
-                            <td>03277</td>
-                            <td>长光辰芯</td>
-                            <td>4/17</td>
-                            <td>39.88</td>
-                            <td class="positive">+72.02%</td>
-                            <td class="positive">+75.53%</td>
-                            <td class="positive">+117.28%</td>
-                        </tr>
-                        <tr>
-                            <td>00068</td>
-                            <td>群核科技</td>
-                            <td>4/17</td>
-                            <td>7.62</td>
-                            <td class="positive">+169.29%</td>
-                            <td class="positive">+144.09%</td>
-                            <td class="positive">+406.56%</td>
+                            <td>03030</td>
+                            <td>南方黄金</td>
+                            <td>4/21</td>
+                            <td>待公布</td>
+                            <td>--</td>
+                            <td class="positive">+50.00%</td>
+                            <td class="positive">+0.62%</td>
                         </tr>
                         <tr>
                             <td>02476</td>
@@ -687,13 +702,256 @@
                             <td class="positive">+6.79%</td>
                         </tr>
                         <tr>
-                            <td>03296</td>
-                            <td>华勤技术</td>
-                            <td>4/23</td>
-                            <td>77.70</td>
+                            <td>00068</td>
+                            <td>群核科技</td>
+                            <td>4/17</td>
+                            <td>7.62</td>
+                            <td class="positive">+169.29%</td>
+                            <td class="positive">+144.09%</td>
+                            <td class="positive">+406.56%</td>
+                        </tr>
+                        <tr>
+                            <td>03277</td>
+                            <td>长光辰芯</td>
+                            <td>4/17</td>
+                            <td>39.88</td>
+                            <td class="positive">+72.02%</td>
+                            <td class="positive">+75.53%</td>
+                            <td class="negative">-11.13%</td>
+                        </tr>
+                        <tr>
+                            <td>06656</td>
+                            <td>思格新能</td>
+                            <td>4/16</td>
+                            <td>324.20</td>
+                            <td class="positive">+84.45%</td>
+                            <td class="positive">+103.42%</td>
+                            <td class="positive">+68.11%</td>
+                        </tr>
+                        <tr>
+                            <td>03625</td>
+                            <td>傅里叶</td>
+                            <td>3/31</td>
+                            <td>40.00</td>
+                            <td class="positive">+108.75%</td>
+                            <td class="positive">+100.00%</td>
+                            <td class="positive">+222.50%</td>
+                        </tr>
+                        <tr>
+                            <td>00664</td>
+                            <td>铜师傅</td>
+                            <td>3/31</td>
+                            <td>60.00</td>
+                            <td class="negative">-30.07%</td>
+                            <td class="negative">-49.17%</td>
+                            <td class="negative">-59.27%</td>
+                        </tr>
+                        <tr>
+                            <td>06636</td>
+                            <td>极视角</td>
+                            <td>3/30</td>
+                            <td>40.00</td>
+                            <td class="positive">+54.50%</td>
+                            <td class="positive">+150.00%</td>
+                            <td class="positive">+209.25%</td>
+                        </tr>
+                        <tr>
+                            <td>02726</td>
+                            <td>瀚天天成</td>
+                            <td>3/30</td>
+                            <td>76.26</td>
+                            <td class="positive">+37.69%</td>
+                            <td class="positive">+35.06%</td>
+                            <td class="negative">-4.67%</td>
+                        </tr>
+                        <tr>
+                            <td>02526</td>
+                            <td>德适-B</td>
+                            <td>3/30</td>
+                            <td>99.00</td>
+                            <td class="positive">+101.52%</td>
+                            <td class="positive">+111.72%</td>
+                            <td class="positive">+205.66%</td>
+                        </tr>
+                        <tr>
+                            <td>01021</td>
+                            <td>华沿机器人</td>
+                            <td>3/30</td>
+                            <td>17.00</td>
+                            <td class="positive">+10.41%</td>
+                            <td class="positive">+8.24%</td>
+                            <td class="positive">+35.88%</td>
+                        </tr>
+                        <tr>
+                            <td>02729</td>
+                            <td>凯乐士科技</td>
+                            <td>3/24</td>
+                            <td>16.66</td>
+                            <td class="positive">+83.19%</td>
+                            <td class="positive">+84.27%</td>
+                            <td class="negative">-2.10%</td>
+                        </tr>
+                        <tr>
+                            <td>02632</td>
+                            <td>泽景股份</td>
+                            <td>3/24</td>
+                            <td>44.20</td>
+                            <td class="positive">+12.67%</td>
+                            <td class="negative">-36.92%</td>
+                            <td class="negative">-7.08%</td>
+                        </tr>
+                        <tr>
+                            <td>03355</td>
+                            <td>飞速创新</td>
+                            <td>3/23</td>
+                            <td>41.60</td>
+                            <td class="positive">+46.39%</td>
+                            <td class="positive">+13.46%</td>
+                            <td class="positive">+17.02%</td>
+                        </tr>
+                        <tr>
+                            <td>02701</td>
+                            <td>国民技术</td>
+                            <td>3/23</td>
+                            <td>10.80</td>
+                            <td class="positive">+8.33%</td>
+                            <td class="positive">+4.17%</td>
+                            <td class="positive">+14.72%</td>
+                        </tr>
+                        <tr>
+                            <td>01989</td>
+                            <td>广合科技</td>
+                            <td>3/20</td>
+                            <td>71.88</td>
+                            <td class="positive">+32.16%</td>
+                            <td class="positive">+33.56%</td>
+                            <td class="positive">+105.76%</td>
+                        </tr>
+                        <tr>
+                            <td>03268</td>
+                            <td>美格智能</td>
+                            <td>3/10</td>
+                            <td>28.86</td>
+                            <td class="positive">+1.87%</td>
+                            <td class="positive">+1.52%</td>
+                            <td class="negative">-17.12%</td>
+                        </tr>
+                        <tr>
+                            <td>02715</td>
+                            <td>埃斯顿</td>
+                            <td>3/9</td>
+                            <td>15.36</td>
+                            <td class="negative">-7.55%</td>
+                            <td class="negative">-16.02%</td>
+                            <td class="positive">+0.71%</td>
+                        </tr>
+                        <tr>
+                            <td>02692</td>
+                            <td>兆威机电</td>
+                            <td>3/9</td>
+                            <td>71.28</td>
+                            <td class="positive">+17.99%</td>
+                            <td class="positive">+2.41%</td>
+                            <td class="negative">-0.45%</td>
+                        </tr>
+                        <tr>
+                            <td>02649</td>
+                            <td>优乐赛共享</td>
+                            <td>3/9</td>
+                            <td>11.00</td>
+                            <td class="positive">+27.27%</td>
+                            <td class="negative">-43.64%</td>
                             <td>--</td>
-                            <td>--</td>
-                            <td>--</td>
+                        </tr>
+                        <tr>
+                            <td>09981</td>
+                            <td>沃尔核材</td>
+                            <td>2/13</td>
+                            <td>20.09</td>
+                            <td class="positive">+4.93%</td>
+                            <td class="positive">+2.94%</td>
+                            <td class="negative">-0.29%</td>
+                        </tr>
+                        <tr>
+                            <td>02706</td>
+                            <td>海致科技集团</td>
+                            <td>2/13</td>
+                            <td>27.06</td>
+                            <td class="positive">+210.42%</td>
+                            <td class="positive">+242.20%</td>
+                            <td class="negative">-5.00%</td>
+                        </tr>
+                        <tr>
+                            <td>00470</td>
+                            <td>先导智能</td>
+                            <td>2/11</td>
+                            <td>45.80</td>
+                            <td class="positive">+1.09%</td>
+                            <td>0.00%</td>
+                            <td class="positive">+25.44%</td>
+                        </tr>
+                        <tr>
+                            <td>02720</td>
+                            <td>乐欣户外</td>
+                            <td>2/10</td>
+                            <td>12.25</td>
+                            <td class="positive">+99.84%</td>
+                            <td class="positive">+102.29%</td>
+                            <td class="negative">-0.08%</td>
+                        </tr>
+                        <tr>
+                            <td>00600</td>
+                            <td>爱芯元智</td>
+                            <td>2/10</td>
+                            <td>28.20</td>
+                            <td class="negative">-4.18%</td>
+                            <td>0.00%</td>
+                            <td class="negative">-24.26%</td>
+                        </tr>
+                        <tr>
+                            <td>06809</td>
+                            <td>澜起科技</td>
+                            <td>2/9</td>
+                            <td>106.89</td>
+                            <td class="positive">+39.77%</td>
+                            <td class="positive">+63.72%</td>
+                            <td class="positive">+95.53%</td>
+                        </tr>
+                        <tr>
+                            <td>03200</td>
+                            <td>大族数控</td>
+                            <td>2/6</td>
+                            <td>95.80</td>
+                            <td class="positive">+21.71%</td>
+                            <td class="positive">+14.82%</td>
+                            <td class="negative">-1.69%</td>
+                        </tr>
+                        <tr>
+                            <td>02714</td>
+                            <td>牧原股份</td>
+                            <td>2/6</td>
+                            <td>39.00</td>
+                            <td class="positive">+1.90%</td>
+                            <td class="positive">+3.90%</td>
+                            <td class="negative">-3.14%</td>
+                        </tr>
+                        <tr>
+                            <td>02768</td>
+                            <td>国恩科技</td>
+                            <td>2/4</td>
+                            <td>36.00</td>
+                            <td class="positive">+36.11%</td>
+                            <td class="positive">+11.56%</td>
+                            <td>0.00%</td>
+                        </tr>
+                        <tr>
+                            <td>09980</td>
+                            <td>东鹏饮料</td>
+                            <td>2/3</td>
+                            <td>248.00</td>
+                            <td class="negative">-0.08%</td>
+                            <td class="positive">+1.53%</td>
+                            <td class="negative">-17.26%</td>
                         </tr>
                     </tbody>
                 </table>
@@ -750,7 +1008,7 @@
         <!-- 页脚 -->
         <div class="footer">
             <p>数据来源：富途牛牛、etnet经济通、东方财富等公开信息</p>
-            <p>系统版本：v2.0 | 最后更新：2026年4月22日 11:12</p>
+            <p>系统版本：v2.0 | 最后更新：2026年4月22日</p>
         </div>
     </div>
 
@@ -763,10 +1021,9 @@
             });
         });
 
-        // 检测设备类型（可选，用于日志）
+        // 检测设备类型
         const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
         console.log('当前设备:', isMobile ? '移动端' : 'PC端');
-        console.log('屏幕宽度:', window.innerWidth, 'px');
     </script>
 </body>
 </html>
