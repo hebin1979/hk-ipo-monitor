@@ -393,22 +393,29 @@
                             <th style="padding: 8px; text-align: left;">名称</th>
                             <th style="padding: 8px; text-align: left;">上市日期</th>
                             <th style="padding: 8px; text-align: right;">IPO价</th>
-                            <th style="padding: 8px; text-align: right;">首日涨幅</th>
+                            <th style="padding: 8px; text-align: right;">入场费</th>
+                            <th style="padding: 8px; text-align: right;">暗盘收盘价</th>
+                            <th style="padding: 8px; text-align: right;">暗盘涨跌幅</th>
+                            <th style="padding: 8px; text-align: right;">首日涨跌幅</th>
+                            <th style="padding: 8px; text-align: right;">累计涨幅</th>
                         </tr>
                     </thead>
                     <tbody>
-                        ${stocks.slice(0, 10).map(stock => `
+                        ${stocks.map(stock => `
                             <tr style="border-bottom: 1px solid #dee2e6;">
                                 <td style="padding: 8px;">${stock.code}</td>
                                 <td style="padding: 8px;">${stock.name}</td>
                                 <td style="padding: 8px;">${stock.listing_date}</td>
                                 <td style="padding: 8px; text-align: right;">${stock.ipo_price || '--'}</td>
-                                <td style="padding: 8px; text-align: right; color: ${stock.first_day_pct > 0 ? '#28a745' : stock.first_day_pct < 0 ? '#dc3545' : '#666'};">${stock.first_day_pct !== null && stock.first_day_pct !== undefined ? stock.first_day_pct + '%' : '--'}</td>
+                                <td style="padding: 8px; text-align: right;">${stock.entry_fee ? 'HK$' + stock.entry_fee : '--'}</td>
+                                <td style="padding: 8px; text-align: right;">${stock.dark_pool_price || '--'}</td>
+                                <td style="padding: 8px; text-align: right; color: ${stock.dark_pool_pct > 0 ? '#e94560' : stock.dark_pool_pct < 0 ? '#28a745' : '#666'};">${stock.dark_pool_pct !== null && stock.dark_pool_pct !== undefined ? stock.dark_pool_pct + '%' : '--'}</td>
+                                <td style="padding: 8px; text-align: right; color: ${stock.first_day_pct > 0 ? '#e94560' : stock.first_day_pct < 0 ? '#28a745' : '#666'};">${stock.first_day_pct !== null && stock.first_day_pct !== undefined ? stock.first_day_pct + '%' : '--'}</td>
+                                <td style="padding: 8px; text-align: right; color: ${stock.cumulative_pct > 0 ? '#e94560' : stock.cumulative_pct < 0 ? '#28a745' : '#666'};">${stock.cumulative_pct !== null && stock.cumulative_pct !== undefined ? stock.cumulative_pct + '%' : '--'}</td>
                             </tr>
                         `).join('')}
                     </tbody>
                 </table>
-                ${stocks.length > 10 ? '<p style="text-align: center; color: #666; margin-top: 10px;">... 仅显示前10条记录</p>' : ''}
             `;
             
             container.innerHTML = tableHTML;
