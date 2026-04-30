@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>港股新股监测系统 V2.0</title>
     <style>
         :root {
@@ -27,7 +27,7 @@
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
             padding: 16px;
-            line-height: 1.5;
+            line-height: 1.6;
         }
 
         .container {
@@ -35,7 +35,6 @@
             margin: 0 auto;
         }
 
-        /* 头部 */
         .header {
             background: linear-gradient(135deg, var(--secondary-color) 0%, #1a1a2e 100%);
             color: white;
@@ -56,26 +55,6 @@
             opacity: 0.9;
         }
 
-        /* 移动端适配 */
-        @media (max-width: 768px) {
-            body {
-                padding: 10px;
-            }
-
-            .header {
-                padding: 20px 16px;
-            }
-
-            .header h1 {
-                font-size: 20px;
-            }
-
-            .header .subtitle {
-                font-size: 12px;
-            }
-        }
-
-        /* 卡片通用样式 */
         .card {
             background: var(--card-bg);
             border-radius: var(--border-radius);
@@ -94,35 +73,11 @@
             gap: 8px;
         }
 
-        /* 时间提醒 */
-        .time-alert {
-            background: linear-gradient(135deg, #fff3cd 0%, #ffeeba 100%);
-            border-left: 4px solid #ffc107;
-            padding: 12px 16px;
-            border-radius: 8px;
-            margin-bottom: 16px;
-        }
-
-        .time-alert p {
-            font-size: 14px;
-            color: #856404;
-            margin-bottom: 4px;
-        }
-
-        .time-alert p:last-child {
-            margin-bottom: 0;
-        }
-
-        /* 招股新股卡片 */
         .ipo-stock {
             border: 1px solid #eee;
             border-radius: 12px;
             padding: 16px;
             margin-bottom: 16px;
-        }
-
-        .ipo-stock:last-child {
-            margin-bottom: 0;
         }
 
         .stock-header {
@@ -155,29 +110,6 @@
             font-weight: 700;
             text-align: center;
             min-width: 80px;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-            gap: 6px;
-        }
-
-        .stock-rating-label {
-            font-size: 12px;
-            font-weight: 400;
-        }
-
-        .stock-rating-score {
-            font-size: 16px;
-            font-weight: 700;
-        }
-
-        .stock-rating.medium {
-            background: linear-gradient(135deg, #ffc107 0%, #ff9800 100%);
-        }
-
-        .stock-rating.low {
-            background: linear-gradient(135deg, #6c757d 0%, #495057 100%);
         }
 
         .stock-info {
@@ -201,850 +133,315 @@
             font-weight: 600;
         }
 
-        /* 评分分析 */
-        .score-section {
-            background: #f8f9fa;
-            border-radius: 8px;
-            padding: 12px;
-            margin-bottom: 12px;
-        }
-
-        .score-title {
-            font-size: 14px;
-            font-weight: 600;
-            color: var(--text-primary);
-            margin-bottom: 8px;
-        }
-
-        .score-grid {
+        .pros-cons {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
-            gap: 8px;
-        }
-
-        .score-item {
-            font-size: 13px;
-            color: var(--text-secondary);
-        }
-
-        .score-item span {
-            color: var(--text-primary);
-            font-weight: 600;
-        }
-
-        /* 亮点/风险 */
-        .section-content {
-            margin-bottom: 12px;
-        }
-
-        .section-title {
-            font-size: 14px;
-            font-weight: 600;
-            margin-bottom: 8px;
-            display: flex;
-            align-items: center;
-            gap: 6px;
-        }
-
-        .section-title.positive {
-            color: #28a745;
-        }
-
-        .section-title.negative {
-            color: #dc3545;
-        }
-
-        .section-title.suggestion {
-            color: #007bff;
-        }
-
-        .section-list {
-            font-size: 13px;
-            color: var(--text-secondary);
-            padding-left: 20px;
-        }
-
-        .section-list li {
-            margin-bottom: 4px;
-        }
-
-        /* 上市新股 */
-        .listing-stock {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 16px;
-            background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);
-            border-radius: 12px;
-            margin-bottom: 12px;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
-
-        .listing-stock .stock-info-left {
-            flex: 1;
-            min-width: 200px;
-        }
-
-        .listing-stock .stock-name {
-            margin-bottom: 4px;
-        }
-
-        .listing-price {
-            text-align: right;
-        }
-
-        .listing-price .price {
-            font-size: 20px;
-            font-weight: 700;
-            color: #2e7d32;
-        }
-
-        .listing-price .date {
-            font-size: 12px;
-            color: #666;
-        }
-
-        /* 新股列表 */
-        .filter-bar {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-            margin-bottom: 16px;
-        }
-
-        .filter-btn {
-            padding: 6px 12px;
-            font-size: 12px;
-            border: 1px solid #ddd;
-            border-radius: 20px;
-            background: white;
-            color: #666;
-            cursor: pointer;
-            transition: all 0.2s;
-        }
-
-        .filter-btn.active {
-            background: var(--secondary-color);
-            color: white;
-            border-color: var(--secondary-color);
-        }
-
-        .ipo-table {
-            width: 100%;
-            overflow-x: auto;
-            -webkit-overflow-scrolling: touch;
-        }
-
-        .ipo-table table {
-            width: 100%;
-            min-width: 600px;
-            border-collapse: collapse;
-            font-size: 12px;
-        }
-
-        .ipo-table th,
-        .ipo-table td {
-            padding: 10px 8px;
-            text-align: left;
-            border-bottom: 1px solid #eee;
-            white-space: nowrap;
-        }
-
-        .ipo-table th {
-            background: #f8f9fa;
-            font-weight: 600;
-            color: var(--text-secondary);
-            position: sticky;
-            top: 0;
-        }
-
-        .ipo-table td {
-            color: var(--text-primary);
-        }
-
-        .positive {
-            color: #e94560;
-        }
-
-        .negative {
-            color: #28a745;
-        }
-
-        /* 行业估值 */
-        .industry-table {
-            width: 100%;
-            font-size: 13px;
-        }
-
-        .industry-table th,
-        .industry-table td {
-            padding: 12px 8px;
-            text-align: left;
-            border-bottom: 1px solid #eee;
-        }
-
-        .industry-table th {
-            font-weight: 600;
-            color: var(--text-secondary);
-            font-size: 12px;
-        }
-
-        /* 风险提示 */
-        .risk-warning {
-            background: #fff3cd;
-            border-radius: 8px;
-            padding: 16px;
-            font-size: 12px;
-            color: #856404;
-            text-align: center;
-        }
-
-        /* 打新收益统计 */
-        .profit-summary {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
             gap: 12px;
+            margin-top: 12px;
         }
 
-        .profit-item {
-            background: #f8f9fa;
+        .pros, .cons {
+            padding: 10px;
             border-radius: 8px;
-            padding: 12px 8px;
-            text-align: center;
-        }
-
-        .profit-label {
             font-size: 12px;
-            color: #666;
-            margin-bottom: 4px;
         }
 
-        .profit-value {
-            font-size: 16px;
-            font-weight: 700;
-            color: var(--text-primary);
+        .pros {
+            background: #d4edda;
+            color: #155724;
         }
 
-        .profit-value.positive {
-            color: #e94560;
+        .cons {
+            background: #f8d7da;
+            color: #721c24;
         }
 
-        .profit-value.negative {
-            color: #28a745;
+        .pros h4, .cons h4 {
+            font-size: 13px;
+            margin-bottom: 6px;
         }
 
-        @media (max-width: 480px) {
-            .profit-summary {
-                grid-template-columns: repeat(2, 1fr);
-            }
-
-        .profit-summary {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-        }
+        .pros ul, .cons ul {
+            margin-left: 16px;
         }
 
-        /* 页脚 */
-        .footer {
+        .analysis {
+            background: #e7f3ff;
+            padding: 12px;
+            border-radius: 8px;
+            font-size: 13px;
+            margin-top: 12px;
+            color: #004085;
+        }
+
+        .recommendation {
+            background: #fff3cd;
+            padding: 10px;
+            border-radius: 8px;
+            font-size: 13px;
+            margin-top: 10px;
+            color: #856404;
+            font-weight: 600;
+        }
+
+        .loading {
             text-align: center;
-            padding: 20px;
-            color: white;
-            font-size: 12px;
-            opacity: 0.8;
+            padding: 40px;
+            color: var(--text-secondary);
         }
 
-        /* 移动端优化 */
-        @media (max-width: 480px) {
+        .error {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 16px;
+            border-radius: 8px;
+            margin: 16px 0;
+        }
+
+        @media (max-width: 768px) {
             .stock-info {
                 grid-template-columns: 1fr;
             }
-
-            .score-grid {
+            
+            .pros-cons {
                 grid-template-columns: 1fr;
-            }
-
-            .filter-bar {
-                overflow-x: auto;
-                flex-wrap: nowrap;
-                padding-bottom: 8px;
-                -webkit-overflow-scrolling: touch;
-            }
-
-            .filter-btn {
-                flex-shrink: 0;
-            }
-
-            .card {
-                padding: 16px;
-            }
-
-            .card-title {
-                font-size: 16px;
-            }
-
-            .ipo-stock {
-                padding: 12px;
-            }
-
-            .stock-name {
-                font-size: 16px;
-            }
-
-            .stock-header {
-                flex-direction: row;
-                align-items: flex-start;
-                justify-content: space-between;
-            }
-
-            .stock-rating {
-                font-size: 14px;
-                padding: 8px 14px;
-                min-width: 85px;
-                flex-shrink: 0;
-            }
-
-            .stock-rating-label {
-                font-size: 11px;
-            }
-
-            .stock-rating-score {
-                font-size: 16px;
-            }
-
-            .listing-stock {
-                flex-direction: row;
-                align-items: center;
-                justify-content: space-between;
-            }
-
-            .listing-price {
-                text-align: right;
-            }
-        }
-
-        /* PC端优化 */
-        @media (min-width: 769px) {
-            .container {
-                max-width: 800px;
-            }
-
-            .card {
-                padding: 24px;
-            }
-
-            .stock-info {
-                grid-template-columns: repeat(4, 1fr);
-            }
-
-            .score-grid {
-                grid-template-columns: repeat(5, 1fr);
             }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <!-- 头部 -->
         <div class="header">
             <h1>📊 港股新股监测系统 V2.0</h1>
             <div class="subtitle">基于AI的智能新股分析与预警平台</div>
         </div>
 
-        <!-- 时间提醒 -->
-        <div class="card">
-            <div class="time-alert">
-                <p>🎉 商米科技-W(06810)今日上市，收盘价+241.11%</p>
-                <p>📢 天星医疗(01609)正在招股中，今日是截止日期！</p>
-                <p>📢 可孚医疗(01187)正在招股中，明日（4月30日）截止！</p>
+        <div id="loading" class="loading">
+            <p>⏳ 正在加载新股数据...</p>
+        </div>
+
+        <div id="error" class="error" style="display: none;"></div>
+
+        <div id="content" style="display: none;">
+            <!-- 正在招股 -->
+            <div class="card">
+                <div class="card-title">🔥 正在招股新股</div>
+                <div id="currently-subscribing"></div>
+            </div>
+
+            <!-- 即将上市 -->
+            <div class="card">
+                <div class="card-title">🚀 即将上市</div>
+                <div id="listing-tomorrow"></div>
+            </div>
+
+            <!-- 已上市新股 -->
+            <div class="card">
+                <div class="card-title">📈 2026年已上市新股</div>
+                <div id="listed-ipos"></div>
             </div>
         </div>
 
-        <!-- 正在招股新股 -->
-        <div class="card">
-            <div class="card-title">🔥 正在招股新股（2只）</div>
-            
-            <!-- 天星医疗 -->
-            <div class="ipo-stock">
-                <div class="stock-header">
-                    <div>
-                        <div class="stock-name">天星医疗</div>
-                        <div class="stock-code">01609.HK | 医疗器械 | 保荐人：中信证券</div>
-                    </div>
-                    <div class="stock-rating medium">
-                        <span class="stock-rating-label">购买评级</span>
-                        <span class="stock-rating-score">6.5分</span>
-                    </div>
-                </div>
-                
-                <div class="stock-info">
-                    <div class="info-item">
-                        <div class="info-label">招股价格</div>
-                        <div class="info-value">98.50港元</div>
-                    </div>
-                    <div class="info-item">
-                        <div class="info-label">每手股数</div>
-                        <div class="info-value">50股</div>
-                    </div>
-                    <div class="info-item">
-                        <div class="info-label">入场费</div>
-                        <div class="info-value">4,975港元</div>
-                    </div>
-                    <div class="info-item">
-                        <div class="info-label">招股截止</div>
-                        <div class="info-value">今日</div>
-                    </div>
-                </div>
-                
-                <div class="section-content">
-                    <div class="section-title positive">✅ 投资亮点</div>
-                    <ul class="section-list">
-                        <li>医疗器械细分领域龙头企业</li>
-                        <li>保荐人为中信证券，信誉良好</li>
-                        <li>招股价格相对合理</li>
-                    </ul>
-                </div>
-
-                <div class="section-content">
-                    <div class="section-title negative">⚠️ 风险因素</div>
-                    <ul class="section-list">
-                        <li>医疗器械行业监管政策风险</li>
-                        <li>市场竞争加剧</li>
-                        <li>超额认购倍数待观察</li>
-                    </ul>
-                </div>
-                
-                <div class="section-content">
-                    <div class="section-title suggestion">💡 投资建议</div>
-                    <p style="font-size: 13px; color: #666;">适合稳健型投资者。建议观望超额认购情况后再决定是否参与。</p>
-                </div>
-            </div>
-
-            <!-- 可孚医疗 -->
-            <div class="ipo-stock">
-                <div class="stock-header">
-                    <div>
-                        <div class="stock-name">可孚医疗</div>
-                        <div class="stock-code">01187.HK | 家用医疗器械龙头 | 保荐人：华泰国际、法国巴黎银行</div>
-                    </div>
-                    <div class="stock-rating medium">
-                        <span class="stock-rating-label">购买评级</span>
-                        <span class="stock-rating-score">6.5分</span>
-                    </div>
-                </div>
-                
-                <div class="stock-info">
-                    <div class="info-item">
-                        <div class="info-label">招股价格</div>
-                        <div class="info-value">最高39.33港元</div>
-                    </div>
-                    <div class="info-item">
-                        <div class="info-label">每手股数</div>
-                        <div class="info-value">100股</div>
-                    </div>
-                    <div class="info-item">
-                        <div class="info-label">入场费</div>
-                        <div class="info-value">3,973港元</div>
-                    </div>
-                    <div class="info-item">
-                        <div class="info-label">招股截止</div>
-                        <div class="info-value">4月30日</div>
-                    </div>
-                </div>
-                
-                <div class="section-content">
-                    <div class="section-title positive">✅ 投资亮点</div>
-                    <ul class="section-list">
-                        <li>A+H上市，中国家用医疗器械行业排名第二</li>
-                        <li>业绩稳健增长：2025年营收33.87亿，净利润3.72亿</li>
-                        <li>明星基石投资者：蓝思科技等12家机构</li>
-                        <li>A股上市超过5年，业绩经市场验证</li>
-                    </ul>
-                </div>
-
-                <div class="section-content">
-                    <div class="section-title negative">⚠️ 风险因素</div>
-                    <ul class="section-list">
-                        <li>A股股价表现一般，港股定价需谨慎</li>
-                        <li>家用医疗器械市场竞争激烈</li>
-                        <li>港股流动性可能较A股低</li>
-                    </ul>
-                </div>
-                
-                <div class="section-content">
-                    <div class="section-title suggestion">💡 投资建议</div>
-                    <p style="font-size: 13px; color: #666;">适合价值型投资者。A+H双上市提供估值参考，建议对比A-H溢价后决策。</p>
-                </div>
-            </div>
+        <div class="card" style="background: #fff3cd; border-left: 4px solid #ffc107;">
+            <p style="color: #856404; font-size: 14px;">
+                ⚠️ <strong>投资风险提示：</strong>本系统提供的数据仅供参考，不构成投资建议。新股投资存在破发、流动性不足等风险，请投资者谨慎决策，盈亏自负。
+            </p>
         </div>
 
-        <!-- 即将招股新股 -->
-        <div class="card">
-            <div class="card-title">📋 2026年已上市新股</div>
-
-            <div class="ipo-table">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>代码</th>
-                            <th>名称</th>
-                            <th>上市日</th>
-                            <th>发行价</th>
-                            <th>暗盘涨跌幅</th>
-                            <th>首日涨跌幅</th>
-                            <th>累计涨幅</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>06810</td>
-                            <td>商米科技-W</td>
-                            <td>4/29</td>
-                            <td>24.86</td>
-                            <td class="positive">+282.14%</td>
-                            <td class="positive">+241.11%</td>
-                            <td>--</td>
-                        </tr>
-                        <tr>
-                            <td>01879</td>
-                            <td>曦智科技-P</td>
-                            <td>4/28</td>
-                            <td>183.20</td>
-                            <td class="positive">+351.00%</td>
-                            <td class="positive">+383.62%</td>
-                            <td>--</td>
-                        </tr>
-                        <tr>
-                            <td>02493</td>
-                            <td>迈威生物-B</td>
-                            <td>4/28</td>
-                            <td>27.64</td>
-                            <td class="positive">+3.11%</td>
-                            <td class="positive">+0.58%</td>
-                            <td>--</td>
-                        </tr>
-                        <tr>
-                            <td>03296</td>
-                            <td>华勤技术</td>
-                            <td>4/23</td>
-                            <td>77.70</td>
-                            <td class="positive">+17.30%</td>
-                            <td class="positive">+13.26%</td>
-                            <td>--</td>
-                        </tr>
-                        <tr>
-                            <td>02476</td>
-                            <td>胜宏科技</td>
-                            <td>4/21</td>
-                            <td>209.88</td>
-                            <td class="positive">+60.19%</td>
-                            <td class="positive">+50.09%</td>
-                            <td class="positive">+6.79%</td>
-                        </tr>
-                        <tr>
-                            <td>00068</td>
-                            <td>群核科技</td>
-                            <td>4/17</td>
-                            <td>7.62</td>
-                            <td class="positive">+169.29%</td>
-                            <td class="positive">+144.09%</td>
-                            <td class="positive">+406.56%</td>
-                        </tr>
-                        <tr>
-                            <td>03277</td>
-                            <td>长光辰芯</td>
-                            <td>4/17</td>
-                            <td>39.88</td>
-                            <td class="positive">+72.02%</td>
-                            <td class="positive">+75.53%</td>
-                            <td class="negative">-11.13%</td>
-                        </tr>
-                        <tr>
-                            <td>06656</td>
-                            <td>思格新能</td>
-                            <td>4/16</td>
-                            <td>324.20</td>
-                            <td class="positive">+84.45%</td>
-                            <td class="positive">+103.42%</td>
-                            <td class="positive">+68.11%</td>
-                        </tr>
-                        <tr>
-                            <td>03625</td>
-                            <td>傅里叶</td>
-                            <td>3/31</td>
-                            <td>40.00</td>
-                            <td class="positive">+108.75%</td>
-                            <td class="positive">+100.00%</td>
-                            <td class="positive">+222.50%</td>
-                        </tr>
-                        <tr>
-                            <td>00664</td>
-                            <td>铜师傅</td>
-                            <td>3/31</td>
-                            <td>60.00</td>
-                            <td class="negative">-30.07%</td>
-                            <td class="negative">-49.17%</td>
-                            <td class="negative">-59.27%</td>
-                        </tr>
-                        <tr>
-                            <td>06636</td>
-                            <td>极视角</td>
-                            <td>3/30</td>
-                            <td>40.00</td>
-                            <td class="positive">+54.50%</td>
-                            <td class="positive">+150.00%</td>
-                            <td class="positive">+209.25%</td>
-                        </tr>
-                        <tr>
-                            <td>02726</td>
-                            <td>瀚天天成</td>
-                            <td>3/30</td>
-                            <td>76.26</td>
-                            <td class="positive">+37.69%</td>
-                            <td class="positive">+35.06%</td>
-                            <td class="negative">-4.67%</td>
-                        </tr>
-                        <tr>
-                            <td>02526</td>
-                            <td>德适-B</td>
-                            <td>3/30</td>
-                            <td>99.00</td>
-                            <td class="positive">+101.52%</td>
-                            <td class="positive">+111.72%</td>
-                            <td class="positive">+205.66%</td>
-                        </tr>
-                        <tr>
-                            <td>01021</td>
-                            <td>华沿机器人</td>
-                            <td>3/30</td>
-                            <td>17.00</td>
-                            <td class="positive">+10.41%</td>
-                            <td class="positive">+8.24%</td>
-                            <td class="positive">+35.88%</td>
-                        </tr>
-                        <tr>
-                            <td>02729</td>
-                            <td>凯乐士科技</td>
-                            <td>3/24</td>
-                            <td>16.66</td>
-                            <td class="positive">+83.19%</td>
-                            <td class="positive">+84.27%</td>
-                            <td class="negative">-2.10%</td>
-                        </tr>
-                        <tr>
-                            <td>02632</td>
-                            <td>泽景股份</td>
-                            <td>3/24</td>
-                            <td>44.20</td>
-                            <td class="positive">+12.67%</td>
-                            <td class="negative">-36.92%</td>
-                            <td class="negative">-7.08%</td>
-                        </tr>
-                        <tr>
-                            <td>03355</td>
-                            <td>飞速创新</td>
-                            <td>3/23</td>
-                            <td>41.60</td>
-                            <td class="positive">+46.39%</td>
-                            <td class="positive">+13.46%</td>
-                            <td class="positive">+17.02%</td>
-                        </tr>
-                        <tr>
-                            <td>02701</td>
-                            <td>国民技术</td>
-                            <td>3/23</td>
-                            <td>10.80</td>
-                            <td class="positive">+8.33%</td>
-                            <td class="positive">+4.17%</td>
-                            <td class="positive">+14.72%</td>
-                        </tr>
-                        <tr>
-                            <td>01989</td>
-                            <td>广合科技</td>
-                            <td>3/20</td>
-                            <td>71.88</td>
-                            <td class="positive">+32.16%</td>
-                            <td class="positive">+33.56%</td>
-                            <td class="positive">+105.76%</td>
-                        </tr>
-                        <tr>
-                            <td>03268</td>
-                            <td>美格智能</td>
-                            <td>3/10</td>
-                            <td>28.86</td>
-                            <td class="positive">+1.87%</td>
-                            <td class="positive">+1.52%</td>
-                            <td class="negative">-17.12%</td>
-                        </tr>
-                        <tr>
-                            <td>02715</td>
-                            <td>埃斯顿</td>
-                            <td>3/9</td>
-                            <td>15.36</td>
-                            <td class="negative">-7.55%</td>
-                            <td class="negative">-16.02%</td>
-                            <td class="positive">+0.71%</td>
-                        </tr>
-                        <tr>
-                            <td>02692</td>
-                            <td>兆威机电</td>
-                            <td>3/9</td>
-                            <td>71.28</td>
-                            <td class="positive">+17.99%</td>
-                            <td class="positive">+2.41%</td>
-                            <td class="negative">-0.45%</td>
-                        </tr>
-                        <tr>
-                            <td>02649</td>
-                            <td>优乐赛共享</td>
-                            <td>3/9</td>
-                            <td>11.00</td>
-                            <td class="positive">+27.27%</td>
-                            <td class="negative">-43.64%</td>
-                            <td>--</td>
-                        </tr>
-                        <tr>
-                            <td>09981</td>
-                            <td>沃尔核材</td>
-                            <td>2/13</td>
-                            <td>20.09</td>
-                            <td class="positive">+4.93%</td>
-                            <td class="positive">+2.94%</td>
-                            <td class="negative">-0.29%</td>
-                        </tr>
-                        <tr>
-                            <td>02706</td>
-                            <td>海致科技集团</td>
-                            <td>2/13</td>
-                            <td>27.06</td>
-                            <td class="positive">+210.42%</td>
-                            <td class="positive">+242.20%</td>
-                            <td class="negative">-5.00%</td>
-                        </tr>
-                        <tr>
-                            <td>00470</td>
-                            <td>先导智能</td>
-                            <td>2/11</td>
-                            <td>45.80</td>
-                            <td class="positive">+1.09%</td>
-                            <td>0.00%</td>
-                            <td class="positive">+25.44%</td>
-                        </tr>
-                        <tr>
-                            <td>02720</td>
-                            <td>乐欣户外</td>
-                            <td>2/10</td>
-                            <td>12.25</td>
-                            <td class="positive">+99.84%</td>
-                            <td class="positive">+102.29%</td>
-                            <td class="negative">-0.08%</td>
-                        </tr>
-                        <tr>
-                            <td>00600</td>
-                            <td>爱芯元智</td>
-                            <td>2/10</td>
-                            <td>28.20</td>
-                            <td class="negative">-4.18%</td>
-                            <td>0.00%</td>
-                            <td class="negative">-24.26%</td>
-                        </tr>
-                        <tr>
-                            <td>06809</td>
-                            <td>澜起科技</td>
-                            <td>2/9</td>
-                            <td>106.89</td>
-                            <td class="positive">+39.77%</td>
-                            <td class="positive">+63.72%</td>
-                            <td class="positive">+95.53%</td>
-                        </tr>
-                        <tr>
-                            <td>03200</td>
-                            <td>大族数控</td>
-                            <td>2/6</td>
-                            <td>95.80</td>
-                            <td class="positive">+21.71%</td>
-                            <td class="positive">+14.82%</td>
-                            <td class="negative">-1.69%</td>
-                        </tr>
-                        <tr>
-                            <td>02714</td>
-                            <td>牧原股份</td>
-                            <td>2/6</td>
-                            <td>39.00</td>
-                            <td class="positive">+1.90%</td>
-                            <td class="positive">+3.90%</td>
-                            <td class="negative">-3.14%</td>
-                        </tr>
-                        <tr>
-                            <td>02768</td>
-                            <td>国恩科技</td>
-                            <td>2/4</td>
-                            <td>36.00</td>
-                            <td class="positive">+36.11%</td>
-                            <td class="positive">+11.56%</td>
-                            <td>0.00%</td>
-                        </tr>
-                        <tr>
-                            <td>09980</td>
-                            <td>东鹏饮料</td>
-                            <td>2/3</td>
-                            <td>248.00</td>
-                            <td class="negative">-0.08%</td>
-                            <td class="positive">+1.53%</td>
-                            <td class="negative">-17.26%</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-
-        <!-- 风险提示 -->
-        <div class="risk-warning">
-            ⚠️ 投资风险提示：本报告仅供参考，不构成投资建议。新股投资存在破发、流动性不足等风险，请谨慎决策。
-        </div>
-
-        <!-- 页脚 -->
-        <div class="footer">
+        <div class="card" style="text-align: center; font-size: 12px; color: var(--text-secondary);">
             <p>数据来源：富途牛牛、etnet经济通、东方财富等公开信息</p>
-            <p>系统版本：v2.0 | 最后更新：2026年4月29日</p>
+            <p id="last-update">最后更新：--</p>
         </div>
     </div>
 
     <script>
-        // 筛选功能 - 根据股票名称关键词匹配
-        const industryKeywords = {
-            'AI/芯片': ['芯', '科技', '智能', '芯片', '算力', 'AI', '电子', '半导体', '光', '极视', '图', '红外', '碳化硅', '凯乐士', '傅里叶', '格罗方德'],
-            '医药生物': ['生物', '医药', '药', '医疗', '基因', '-B', '健康', '德适'],
-            '智能硬件': ['硬件', 'ODM', '制造', '装备', '机器人', '设备', '瀚天天成', '胜宏', '华勤', '美格', '埃斯顿', '兆威', '先导', '乐欣', '爱芯', '澜起', '大族', '牧原', '国恩', '东鹏', '广合', '飞速', '国民', '泽景', '优乐赛', '沃尔', '海致', '铜师傅']
-        };
+        // 加载JSON数据
+        async function loadData() {
+            try {
+                const response = await fetch('hk_ipo_data_2026.json');
+                if (!response.ok) {
+                    throw new Error('无法加载数据文件');
+                }
+                const data = await response.json();
+                return data;
+            } catch (error) {
+                console.error('加载数据失败:', error);
+                throw error;
+            }
+        }
 
-        document.querySelectorAll('.filter-btn').forEach(btn => {
-            btn.addEventListener('click', function() {
-                // 切换按钮状态
-                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-                this.classList.add('active');
+        // 渲染正在招股的新股
+        function renderCurrentlySubscribing(stocks) {
+            const container = document.getElementById('currently-subscribing');
+            
+            if (!stocks || stocks.length === 0) {
+                container.innerHTML = '<p style="color: #666;">暂无招股中的新股</p>';
+                return;
+            }
 
-                // 获取筛选的行业
-                const filterName = this.textContent.trim();
-                const rows = document.querySelectorAll('.ipo-table tbody tr');
+            container.innerHTML = stocks.map(stock => `
+                <div class="ipo-stock">
+                    <div class="stock-header">
+                        <div>
+                            <div class="stock-name">${stock.name} ${stock.name_en ? `(${stock.name_en})` : ''}</div>
+                            <div class="stock-code">${stock.code}.HK</div>
+                        </div>
+                        ${stock.rating ? `<div class="stock-rating">${stock.rating}分</div>` : ''}
+                    </div>
+                    <div class="stock-info">
+                        <div class="info-item">
+                            <div class="info-label">招股期</div>
+                            <div class="info-value">${stock.subscription_start} 至 ${stock.subscription_end}</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">上市日期</div>
+                            <div class="info-value">${stock.listing_date}</div>
+                        </div>
+                        ${stock.price_range ? `
+                        <div class="info-item">
+                            <div class="info-label">招股价</div>
+                            <div class="info-value">${stock.price_range}</div>
+                        </div>` : ''}
+                        ${stock.entry_fee ? `
+                        <div class="info-item">
+                            <div class="info-label">入场费</div>
+                            <div class="info-value">HK$${stock.entry_fee}</div>
+                        </div>` : ''}
+                        ${stock.oversubscription ? `
+                        <div class="info-item">
+                            <div class="info-label">超额认购</div>
+                            <div class="info-value">${stock.oversubscription}</div>
+                        </div>` : ''}
+                    </div>
+                    ${stock.pros && stock.pros.length > 0 ? `
+                    <div class="pros-cons">
+                        <div class="pros">
+                            <h4>✅ 优势</h4>
+                            <ul>${stock.pros.map(p => `<li>${p}</li>`).join('')}</ul>
+                        </div>
+                        ${stock.cons && stock.cons.length > 0 ? `
+                        <div class="cons">
+                            <h4>⚠️ 风险</h4>
+                            <ul>${stock.cons.map(c => `<li>${c}</li>`).join('')}</ul>
+                        </div>` : ''}
+                    </div>` : ''}
+                    ${stock.analysis ? `<div class="analysis">💡 ${stock.analysis}</div>` : ''}
+                    ${stock.recommendation ? `<div class="recommendation">📝 建议：${stock.recommendation}</div>` : ''}
+                </div>
+            `).join('');
+        }
 
-                rows.forEach(row => {
-                    const stockName = row.cells[1].textContent;
+        // 渲染即将上市的新股
+        function renderListingTomorrow(stocks) {
+            const container = document.getElementById('listing-tomorrow');
+            
+            if (!stocks || stocks.length === 0) {
+                container.innerHTML = '<p style="color: #666;">暂无即将上市的新股</p>';
+                return;
+            }
 
-                    if (filterName === '全部') {
-                        row.style.display = '';
-                    } else {
-                        const keywords = industryKeywords[filterName] || [];
-                        const matches = keywords.some(kw => stockName.includes(kw));
-                        row.style.display = matches ? '' : 'none';
-                    }
-                });
-            });
-        });
+            container.innerHTML = stocks.map(stock => `
+                <div class="ipo-stock">
+                    <div class="stock-header">
+                        <div>
+                            <div class="stock-name">${stock.name} ${stock.name_en ? `(${stock.name_en})` : ''}</div>
+                            <div class="stock-code">${stock.code}.HK</div>
+                        </div>
+                        ${stock.rating ? `<div class="stock-rating">${stock.rating}分</div>` : ''}
+                    </div>
+                    <div class="stock-info">
+                        <div class="info-item">
+                            <div class="info-label">上市日期</div>
+                            <div class="info-value">${stock.listing_date}</div>
+                        </div>
+                        ${stock.pricing ? `
+                        <div class="info-item">
+                            <div class="info-label">定价</div>
+                            <div class="info-value">${stock.pricing}</div>
+                        </div>` : ''}
+                        ${stock.entry_fee ? `
+                        <div class="info-item">
+                            <div class="info-label">入场费</div>
+                            <div class="info-value">HK$${stock.entry_fee}</div>
+                        </div>` : ''}
+                        ${stock.oversubscription ? `
+                        <div class="info-item">
+                            <div class="info-label">超额认购</div>
+                            <div class="info-value">${stock.oversubscription}</div>
+                        </div>` : ''}
+                    </div>
+                    ${stock.analysis ? `<div class="analysis">💡 ${stock.analysis}</div>` : ''}
+                    ${stock.recommendation ? `<div class="recommendation">📝 建议：${stock.recommendation}</div>` : ''}
+                </div>
+            `).join('');
+        }
 
-        // 检测设备类型
-        const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-        console.log('当前设备:', isMobile ? '移动端' : 'PC端');
+        // 渲染已上市新股表格
+        function renderListedIPOs(stocks) {
+            const container = document.getElementById('listed-ipos');
+            
+            if (!stocks || stocks.length === 0) {
+                container.innerHTML = '<p style="color: #666;">暂无已上市新股数据</p>';
+                return;
+            }
+
+            const tableHTML = `
+                <table style="width: 100%; border-collapse: collapse; font-size: 13px;">
+                    <thead>
+                        <tr style="background: #f8f9fa; border-bottom: 2px solid #dee2e6;">
+                            <th style="padding: 8px; text-align: left;">代码</th>
+                            <th style="padding: 8px; text-align: left;">名称</th>
+                            <th style="padding: 8px; text-align: left;">上市日期</th>
+                            <th style="padding: 8px; text-align: right;">IPO价</th>
+                            <th style="padding: 8px; text-align: right;">首日涨幅</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${stocks.slice(0, 10).map(stock => `
+                            <tr style="border-bottom: 1px solid #dee2e6;">
+                                <td style="padding: 8px;">${stock.code}</td>
+                                <td style="padding: 8px;">${stock.name}</td>
+                                <td style="padding: 8px;">${stock.listing_date}</td>
+                                <td style="padding: 8px; text-align: right;">${stock.ipo_price || '--'}</td>
+                                <td style="padding: 8px; text-align: right; color: ${stock.first_day_pct > 0 ? '#28a745' : stock.first_day_pct < 0 ? '#dc3545' : '#666'};">${stock.first_day_pct !== null && stock.first_day_pct !== undefined ? stock.first_day_pct + '%' : '--'}</td>
+                            </tr>
+                        `).join('')}
+                    </tbody>
+                </table>
+                ${stocks.length > 10 ? '<p style="text-align: center; color: #666; margin-top: 10px;">... 仅显示前10条记录</p>' : ''}
+            `;
+            
+            container.innerHTML = tableHTML;
+        }
+
+        // 初始化
+        async function init() {
+            try {
+                const data = await loadData();
+                
+                // 隐藏加载提示
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('content').style.display = 'block';
+                
+                // 渲染数据
+                renderCurrentlySubscribing(data.currently_subscribing);
+                renderListingTomorrow(data.listing_tomorrow);
+                renderListedIPOs(data.listed_ipos_2026);
+                
+                // 更新最后更新时间
+                if (data.metadata && data.metadata.last_update) {
+                    document.getElementById('last-update').textContent = '最后更新：' + data.metadata.last_update;
+                }
+                
+            } catch (error) {
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('error').style.display = 'block';
+                document.getElementById('error').textContent = '❌ 加载数据失败：' + error.message;
+            }
+        }
+
+        // 页面加载完成后初始化
+        document.addEventListener('DOMContentLoaded', init);
     </script>
 </body>
 </html>
