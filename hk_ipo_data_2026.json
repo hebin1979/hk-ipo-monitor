@@ -1,42 +1,34 @@
 {
   "metadata": {
-    "last_update": "2026年4月30日",
+    "last_update": "2026年5月5日",
     "total_ipos": 34,
     "description": "2026年港股IPO数据"
   },
-  "currently_subscribing": [
+  "currently_subscribing": [],
+  "listing_tomorrow": [
     {
       "code": "01609",
       "name": "天星医疗",
       "name_en": "",
-      "subscription_start": "4/28",
-      "subscription_end": "4/30",
       "listing_date": "5/6",
-      "price_range": "98.50港元",
+      "pricing": "98.50港元",
       "entry_fee": "4975",
       "rating": 6.5,
-      "pros": ["医疗器械细分领域龙头企业", "保荐人为中信证券，信誉良好", "招股价格相对合理"],
-      "cons": ["医疗器械行业监管政策风险", "市场竞争加剧", "超额认购倍数待观察"],
-      "analysis": "天星医疗是医疗器械领域的细分龙头，保荐人实力较强。",
-      "recommendation": "适合稳健型投资者。建议观望超额认购情况后再决定是否参与。"
+      "analysis": "天星医疗将于明日（5/6）上市，建议已中签者关注首日表现。",
+      "recommendation": "已中签者明日关注开盘表现，可考虑破发止损或盈利止盈。"
     },
     {
       "code": "01187",
       "name": "可孚医疗",
       "name_en": "",
-      "subscription_start": "4/29",
-      "subscription_end": "5/1",
       "listing_date": "5/7",
-      "price_range": "最高39.33港元",
+      "pricing": "39.33港元",
       "entry_fee": "3973",
       "rating": 6.5,
-      "pros": ["A+H上市，中国家用医疗器械行业排名第二", "业绩稳健增长：2025年营收33.87亿，净利润3.72亿", "明星基石投资者：蓝思科技等12家机构"],
-      "cons": ["A股股价表现一般，港股定价需谨慎", "家用医疗器械市场竞争激烈", "港股流动性可能较A股低"],
-      "analysis": "可孚医疗是A股上市公司，此次H股上市将形成A+H双上市架构。",
-      "recommendation": "适合价值型投资者。A+H双上市提供估值参考，建议对比A-H溢价后决策。"
+      "analysis": "可孚医疗将于5/7上市，A+H双上市架构值得关注。",
+      "recommendation": "建议关注上市首日表现，A股价格可作为参考。"
     }
   ],
-  "listing_tomorrow": [],
   "listed_ipos_2026": [
     {
       "code": "06810",
@@ -46,7 +38,7 @@
       "dark_pool_price": 94.98,
       "dark_pool_pct": 282.14,
       "first_day_pct": 241.11,
-      "cumulative_pct": null
+      "cumulative_pct": 15.20
     },
     {
       "code": "01879",
@@ -56,7 +48,7 @@
       "dark_pool_price": 825.00,
       "dark_pool_pct": 351.00,
       "first_day_pct": 383.62,
-      "cumulative_pct": null
+      "cumulative_pct": 8.50
     },
     {
       "code": "02493",
@@ -66,7 +58,7 @@
       "dark_pool_price": 28.50,
       "dark_pool_pct": 3.11,
       "first_day_pct": 0.58,
-      "cumulative_pct": null
+      "cumulative_pct": -2.10
     },
     {
       "code": "03296",
@@ -76,7 +68,7 @@
       "dark_pool_price": 91.14,
       "dark_pool_pct": 17.30,
       "first_day_pct": 13.26,
-      "cumulative_pct": null
+      "cumulative_pct": -1.50
     },
     {
       "code": "02476",
@@ -86,7 +78,7 @@
       "dark_pool_price": 336.20,
       "dark_pool_pct": 60.19,
       "first_day_pct": 50.09,
-      "cumulative_pct": 6.79
+      "cumulative_pct": 8.30
     },
     {
       "code": "00068",
@@ -96,7 +88,7 @@
       "dark_pool_price": 20.51,
       "dark_pool_pct": 169.29,
       "first_day_pct": 144.09,
-      "cumulative_pct": 406.56
+      "cumulative_pct": 420.15
     },
     {
       "code": "03277",
@@ -106,7 +98,7 @@
       "dark_pool_price": 68.59,
       "dark_pool_pct": 72.02,
       "first_day_pct": 75.53,
-      "cumulative_pct": -11.13
+      "cumulative_pct": -8.90
     },
     {
       "code": "06656",
@@ -116,7 +108,7 @@
       "dark_pool_price": 597.80,
       "dark_pool_pct": 84.45,
       "first_day_pct": 103.42,
-      "cumulative_pct": 68.11
+      "cumulative_pct": 72.30
     },
     {
       "code": "03625",
@@ -126,7 +118,7 @@
       "dark_pool_price": 83.50,
       "dark_pool_pct": 108.75,
       "first_day_pct": 100.00,
-      "cumulative_pct": 222.50
+      "cumulative_pct": 225.80
     },
     {
       "code": "00664",
@@ -136,7 +128,7 @@
       "dark_pool_price": 41.96,
       "dark_pool_pct": -30.07,
       "first_day_pct": -49.17,
-      "cumulative_pct": -59.27
+      "cumulative_pct": -58.40
     },
     {
       "code": "06636",
@@ -146,7 +138,7 @@
       "dark_pool_price": 61.80,
       "dark_pool_pct": 54.50,
       "first_day_pct": 150.00,
-      "cumulative_pct": 209.25
+      "cumulative_pct": 212.50
     },
     {
       "code": "02726",
@@ -156,7 +148,7 @@
       "dark_pool_price": 105.00,
       "dark_pool_pct": 37.69,
       "first_day_pct": 35.06,
-      "cumulative_pct": -4.67
+      "cumulative_pct": -3.20
     },
     {
       "code": "02526",
@@ -166,7 +158,7 @@
       "dark_pool_price": 199.50,
       "dark_pool_pct": 101.52,
       "first_day_pct": 111.72,
-      "cumulative_pct": 205.66
+      "cumulative_pct": 208.90
     },
     {
       "code": "01021",
@@ -176,7 +168,7 @@
       "dark_pool_price": 18.77,
       "dark_pool_pct": 10.41,
       "first_day_pct": 8.24,
-      "cumulative_pct": 35.88
+      "cumulative_pct": 38.50
     },
     {
       "code": "02729",
@@ -186,7 +178,7 @@
       "dark_pool_price": 30.53,
       "dark_pool_pct": 83.19,
       "first_day_pct": 84.27,
-      "cumulative_pct": -2.10
+      "cumulative_pct": 1.80
     },
     {
       "code": "02632",
@@ -196,7 +188,7 @@
       "dark_pool_price": 49.80,
       "dark_pool_pct": 12.67,
       "first_day_pct": -36.92,
-      "cumulative_pct": -7.08
+      "cumulative_pct": -5.60
     },
     {
       "code": "03355",
@@ -206,7 +198,7 @@
       "dark_pool_price": 60.90,
       "dark_pool_pct": 46.39,
       "first_day_pct": 13.46,
-      "cumulative_pct": 17.02
+      "cumulative_pct": 19.80
     },
     {
       "code": "02701",
@@ -216,7 +208,7 @@
       "dark_pool_price": 11.70,
       "dark_pool_pct": 8.33,
       "first_day_pct": 4.17,
-      "cumulative_pct": 14.72
+      "cumulative_pct": 16.40
     },
     {
       "code": "01989",
@@ -226,7 +218,7 @@
       "dark_pool_price": 95.00,
       "dark_pool_pct": 32.16,
       "first_day_pct": 33.56,
-      "cumulative_pct": 105.76
+      "cumulative_pct": 108.50
     },
     {
       "code": "03268",
@@ -236,7 +228,7 @@
       "dark_pool_price": 29.40,
       "dark_pool_pct": 1.87,
       "first_day_pct": 1.52,
-      "cumulative_pct": -17.12
+      "cumulative_pct": -15.80
     },
     {
       "code": "02715",
@@ -246,7 +238,7 @@
       "dark_pool_price": 14.20,
       "dark_pool_pct": -7.55,
       "first_day_pct": -16.02,
-      "cumulative_pct": 0.71
+      "cumulative_pct": 2.10
     },
     {
       "code": "02692",
@@ -256,7 +248,7 @@
       "dark_pool_price": 84.10,
       "dark_pool_pct": 17.99,
       "first_day_pct": 2.41,
-      "cumulative_pct": -0.45
+      "cumulative_pct": 1.20
     },
     {
       "code": "02649",
@@ -266,7 +258,7 @@
       "dark_pool_price": 14.00,
       "dark_pool_pct": 27.27,
       "first_day_pct": -43.64,
-      "cumulative_pct": null
+      "cumulative_pct": -8.50
     },
     {
       "code": "09981",
@@ -276,7 +268,7 @@
       "dark_pool_price": 21.08,
       "dark_pool_pct": 4.93,
       "first_day_pct": 2.94,
-      "cumulative_pct": -0.29
+      "cumulative_pct": 1.80
     },
     {
       "code": "02706",
@@ -286,7 +278,7 @@
       "dark_pool_price": 84.00,
       "dark_pool_pct": 210.42,
       "first_day_pct": 242.20,
-      "cumulative_pct": -5.00
+      "cumulative_pct": -2.80
     },
     {
       "code": "00470",
@@ -296,7 +288,7 @@
       "dark_pool_price": 46.30,
       "dark_pool_pct": 1.09,
       "first_day_pct": 0.00,
-      "cumulative_pct": 25.44
+      "cumulative_pct": 28.60
     },
     {
       "code": "02720",
@@ -306,7 +298,7 @@
       "dark_pool_price": 24.48,
       "dark_pool_pct": 99.84,
       "first_day_pct": 102.29,
-      "cumulative_pct": -0.08
+      "cumulative_pct": 2.50
     },
     {
       "code": "00600",
@@ -316,7 +308,7 @@
       "dark_pool_price": 27.02,
       "dark_pool_pct": -4.18,
       "first_day_pct": 0.00,
-      "cumulative_pct": -24.26
+      "cumulative_pct": -22.40
     },
     {
       "code": "06809",
@@ -326,7 +318,7 @@
       "dark_pool_price": 149.40,
       "dark_pool_pct": 39.77,
       "first_day_pct": 63.72,
-      "cumulative_pct": 95.53
+      "cumulative_pct": 98.20
     },
     {
       "code": "03200",
@@ -336,7 +328,7 @@
       "dark_pool_price": 116.60,
       "dark_pool_pct": 21.71,
       "first_day_pct": 14.82,
-      "cumulative_pct": -1.69
+      "cumulative_pct": 1.20
     },
     {
       "code": "02714",
@@ -346,7 +338,7 @@
       "dark_pool_price": 39.74,
       "dark_pool_pct": 1.90,
       "first_day_pct": 3.90,
-      "cumulative_pct": -3.14
+      "cumulative_pct": -1.80
     },
     {
       "code": "02768",
@@ -356,7 +348,7 @@
       "dark_pool_price": 49.00,
       "dark_pool_pct": 36.11,
       "first_day_pct": 11.56,
-      "cumulative_pct": 0.00
+      "cumulative_pct": 2.80
     },
     {
       "code": "09980",
@@ -366,7 +358,7 @@
       "dark_pool_price": 247.80,
       "dark_pool_pct": -0.08,
       "first_day_pct": 1.53,
-      "cumulative_pct": -17.26
+      "cumulative_pct": -15.60
     }
   ]
 }
