@@ -1,32 +1,67 @@
 {
   "metadata": {
     "last_update": "2026年5月5日",
-    "total_ipos": 34,
+    "total_ipos": 37,
     "description": "2026年港股IPO数据"
   },
-  "currently_subscribing": [],
-  "listing_tomorrow": [
+  "currently_subscribing": [
     {
-      "code": "01609",
-      "name": "天星医疗",
+      "code": "01236",
+      "name": "乐动机器人",
       "name_en": "",
-      "listing_date": "5/6",
-      "pricing": "98.50港元",
-      "entry_fee": "4975",
-      "rating": 6.5,
-      "analysis": "天星医疗将于明日（5/6）上市，建议已中签者关注首日表现。",
-      "recommendation": "已中签者明日关注开盘表现，可考虑破发止损或盈利止盈。"
+      "subscription_start": "4/29",
+      "subscription_end": "5/6",
+      "listing_date": "5/11",
+      "price_range": "24-30港元",
+      "entry_fee": "6061",
+      "rating": null,
+      "pros": [],
+      "cons": [],
+      "analysis": "乐动机器人正在招股中，截止日期5/6，将于5/11上市。",
+      "recommendation": "招股中，截止5/6，请关注。"
     },
+    {
+      "code": "07630",
+      "name": "英派药业-B",
+      "name_en": "",
+      "subscription_start": "4/29",
+      "subscription_end": "5/8",
+      "listing_date": "5/13",
+      "price_range": "19.75-21.75港元",
+      "entry_fee": "4394",
+      "rating": null,
+      "pros": [],
+      "cons": [],
+      "analysis": "英派药业-B正在招股中，截止日期5/8，将于5/13上市。",
+      "recommendation": "招股中，截止5/8，请关注。"
+    },
+    {
+      "code": "07666",
+      "name": "剂泰科技-P",
+      "name_en": "",
+      "subscription_start": "5/5",
+      "subscription_end": "5/8",
+      "listing_date": "5/13",
+      "price_range": "10.5港元",
+      "entry_fee": "5303",
+      "rating": null,
+      "pros": [],
+      "cons": [],
+      "analysis": "剂泰科技-P今日开始招股，截止日期5/8，将于5/13上市。",
+      "recommendation": "招股中，截止5/8，请关注。"
+    }
+  ],
+  "listing_tomorrow": [
     {
       "code": "01187",
       "name": "可孚医疗",
       "name_en": "",
-      "listing_date": "5/7",
+      "listing_date": "5/6",
       "pricing": "39.33港元",
       "entry_fee": "3973",
-      "rating": 6.5,
-      "analysis": "可孚医疗将于5/7上市，A+H双上市架构值得关注。",
-      "recommendation": "建议关注上市首日表现，A股价格可作为参考。"
+      "rating": null,
+      "analysis": "可孚医疗将于明日（5/6）上市。",
+      "recommendation": "明日上市，请关注首日表现。"
     }
   ],
   "listed_ipos_2026": [
