@@ -222,6 +222,9 @@
 
         <div id="error" class="error" style="display: none;"></div>
 
+        <!-- 动态通知区域 -->
+        <div id="notification" class="card" style="display: none;"></div>
+
         <div id="content" style="display: none;">
             <!-- 正在招股 -->
             <div class="card">
@@ -419,6 +422,60 @@
             container.innerHTML = tableHTML;
         }
 
+        // 渲染动态通知
+        function renderNotification(data) {
+            const container = document.getElementById('notification');
+            let notifications = [];
+
+            // 1. 检查今日上市的新股
+            const today = new Date();
+            const todayStr = (today.getMonth() + 1) + '/' + today.getDate();
+            
+            if (data.listed_ipos_2026 && data.listed_ipos_2026.length > 0) {
+                data.listed_ipos_2026.forEach(stock => {
+                    if (stock.listing_date === todayStr) {
+                        const pct = stock.first_day_pct || 0;
+                        notifications.push(`🎉 ${stock.name}(${stock.code})今日上市，首日涨幅${pct > 0 ? '+' : ''}${pct}%`);
+                    }
+                });
+            }
+
+            // 2. 检查正在招股的新股
+            if (data.currently_subscribing && data.currently_subscribing.length > 0) {
+                data.currently_subscribing.forEach(stock => {
+                    if (stock.subscription_end === '今日') {
+                        notifications.push(`📢 ${stock.name}(${stock.code})正在招股中，今日是截止日期！`);
+                    } else if (stock.subscription_end) {
+                        const tomorrow = new Date(today);
+                        tomorrow.setDate(tomorrow.getDate() + 1);
+                        const tomorrowStr = (tomorrow.getMonth() + 1) + '/' + tomorrow.getDate();
+                        if (stock.subscription_end === tomorrowStr) {
+                            notifications.push(`📢 ${stock.name}(${stock.code})正在招股中，明日（${stock.subscription_end}）截止！`);
+                        }
+                    }
+                });
+            }
+
+            // 3. 检查即将上市的新股
+            if (data.listing_tomorrow && data.listing_tomorrow.length > 0) {
+                data.listing_tomorrow.forEach(stock => {
+                    notifications.push(`🚀 ${stock.name}(${stock.code})将于${stock.listing_date}上市`);
+                });
+            }
+
+            // 如果有通知，显示通知区域
+            if (notifications.length > 0) {
+                container.style.display = 'block';
+                container.innerHTML = `
+                    <div style="background: linear-gradient(135deg, #fff3cd 0%, #ffeeba 100%); border-left: 4px solid #ffc107; padding: 12px 16px; border-radius: 8px;">
+                        ${notifications.map(n => `<p style="font-size: 14px; color: #856404; margin-bottom: 4px;">${n}</p>`).join('')}
+                    </div>
+                `;
+            } else {
+                container.style.display = 'none';
+            }
+        }
+
         // 初始化
         async function init() {
             try {
@@ -429,6 +486,7 @@
                 document.getElementById('content').style.display = 'block';
                 
                 // 渲染数据
+                renderNotification(data);
                 renderCurrentlySubscribing(data.currently_subscribing);
                 renderListingTomorrow(data.listing_tomorrow);
                 renderListedIPOs(data.listed_ipos_2026);
