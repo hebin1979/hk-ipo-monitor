@@ -273,14 +273,21 @@
         // 加载JSON数据
         async function loadData() {
             try {
-                const response = await fetch('hk_ipo_data_2026.json');
+                console.log('开始加载数据...');
+                const response = await fetch('hk_ipo_data_2026.json?v=' + new Date().getTime());
+                console.log('响应状态:', response.status);
                 if (!response.ok) {
-                    throw new Error('无法加载数据文件');
+                    throw new Error('无法加载数据文件 (状态: ' + response.status + ')');
                 }
                 const data = await response.json();
+                console.log('数据加载成功:', data);
                 return data;
             } catch (error) {
                 console.error('加载数据失败:', error);
+                // 显示详细错误信息
+                const errorDiv = document.getElementById('error');
+                errorDiv.style.display = 'block';
+                errorDiv.innerHTML = '❌ 加载数据失败：' + error.message + '<br>请检查浏览器控制台获取详细信息。';
                 throw error;
             }
         }
