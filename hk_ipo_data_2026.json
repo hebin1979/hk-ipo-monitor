@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "last_update": "2026年5月5日",
-    "total_ipos": 37,
+    "last_update": "2026年5月6日",
+    "total_ipos": 38,
     "description": "2026年港股IPO数据"
   },
   "currently_subscribing": [
@@ -17,14 +17,14 @@
       "rating": null,
       "pros": [],
       "cons": [],
-      "analysis": "乐动机器人正在招股中，截止日期5/6，将于5/11上市。",
-      "recommendation": "招股中，截止5/6，请关注。"
+      "analysis": "乐动机器人今日招股截止，将于5/11上市。超额认购8714倍，市场极度看好。",
+      "recommendation": "今日截止，资金回笼后可循环使用。"
     },
     {
       "code": "07630",
       "name": "英派药业-B",
       "name_en": "",
-      "subscription_start": "4/29",
+      "subscription_start": "5/5",
       "subscription_end": "5/8",
       "listing_date": "5/13",
       "price_range": "19.75-21.75港元",
@@ -32,7 +32,7 @@
       "rating": null,
       "pros": [],
       "cons": [],
-      "analysis": "英派药业-B正在招股中，截止日期5/8，将于5/13上市。",
+      "analysis": "英派药业-B正在招股中，截止日期5/8，将于5/13上市。超额认购99倍。",
       "recommendation": "招股中，截止5/8，请关注。"
     },
     {
@@ -47,24 +47,32 @@
       "rating": null,
       "pros": [],
       "cons": [],
-      "analysis": "剂泰科技-P今日开始招股，截止日期5/8，将于5/13上市。",
+      "analysis": "剂泰科技-P正在招股中，截止日期5/8，将于5/13上市。超额认购550倍，市场极度看好。",
       "recommendation": "招股中，截止5/8，请关注。"
     }
   ],
-  "listing_tomorrow": [
+  "listing_tomorrow": [],
+  "listed_ipos_2026": [
     {
       "code": "01187",
       "name": "可孚医疗",
-      "name_en": "",
       "listing_date": "5/6",
-      "pricing": "39.33港元",
-      "entry_fee": "3973",
-      "rating": null,
-      "analysis": "可孚医疗将于明日（5/6）上市。",
-      "recommendation": "明日上市，请关注首日表现。"
-    }
-  ],
-  "listed_ipos_2026": [
+      "ipo_price": 39.33,
+      "dark_pool_price": 40.20,
+      "dark_pool_pct": 2.21,
+      "first_day_pct": null,
+      "cumulative_pct": null
+    },
+    {
+      "code": "01609",
+      "name": "天星医疗",
+      "listing_date": "5/5",
+      "ipo_price": 98.50,
+      "dark_pool_price": 290.40,
+      "dark_pool_pct": 198.48,
+      "first_day_pct": null,
+      "cumulative_pct": null
+    },
     {
       "code": "06810",
       "name": "商米科技-W",
