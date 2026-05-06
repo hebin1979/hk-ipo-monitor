@@ -270,6 +270,14 @@
     </div>
 
     <script>
+        // 测试JavaScript是否执行
+        console.log('JavaScript开始执行...');
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('DOM已加载');
+            // 显示测试消息
+            document.getElementById('loading').innerHTML = '⏳ JavaScript已执行，正在加载新股数据...';
+        });
+        
         // 加载JSON数据
         async function loadData() {
             try {
