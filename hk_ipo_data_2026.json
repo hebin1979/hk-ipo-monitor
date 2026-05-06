@@ -6,21 +6,6 @@
   },
   "currently_subscribing": [
     {
-      "code": "01236",
-      "name": "乐动机器人",
-      "name_en": "",
-      "subscription_start": "4/29",
-      "subscription_end": "5/6",
-      "listing_date": "5/11",
-      "price_range": "24-30港元",
-      "entry_fee": "6061",
-      "rating": null,
-      "pros": [],
-      "cons": [],
-      "analysis": "乐动机器人今日招股截止，将于5/11上市。超额认购8714倍，市场极度看好。",
-      "recommendation": "今日截止，资金回笼后可循环使用。"
-    },
-    {
       "code": "07630",
       "name": "英派药业-B",
       "name_en": "",
@@ -29,7 +14,7 @@
       "listing_date": "5/13",
       "price_range": "19.75-21.75港元",
       "entry_fee": "4394",
-      "rating": null,
+      "rating": 6.5,
       "pros": [],
       "cons": [],
       "analysis": "英派药业-B正在招股中，截止日期5/8，将于5/13上市。超额认购99倍。",
@@ -44,14 +29,27 @@
       "listing_date": "5/13",
       "price_range": "10.5港元",
       "entry_fee": "5303",
-      "rating": null,
+      "rating": 7.5,
       "pros": [],
       "cons": [],
       "analysis": "剂泰科技-P正在招股中，截止日期5/8，将于5/13上市。超额认购550倍，市场极度看好。",
       "recommendation": "招股中，截止5/8，请关注。"
     }
   ],
-  "listing_tomorrow": [],
+  "listing_tomorrow": [
+    {
+      "code": "01236",
+      "name": "乐动机器人",
+      "name_en": "",
+      "listing_date": "5/11",
+      "pricing": "24-30港元",
+      "entry_fee": "6061",
+      "rating": 8.5,
+      "oversubscription": "8714倍",
+      "analysis": "乐动机器人招股已截止（5/6），将于5/11上市。超额认购8714倍，市场极度看好。",
+      "recommendation": "即将上市，请关注首日表现。"
+    }
+  ],
   "listed_ipos_2026": [
     {
       "code": "01187",
