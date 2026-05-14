@@ -1,10 +1,25 @@
 {
   "metadata": {
     "last_update": "2026年5月14日",
-    "total_ipos": 41,
+    "total_ipos": 42,
     "description": "2026年港股IPO数据"
   },
   "currently_subscribing": [
+    {
+      "code": "01511",
+      "name": "驭势科技",
+      "name_en": "",
+      "subscription_start": "5/12",
+      "subscription_end": "5/15",
+      "listing_date": "5/20",
+      "price_range": "60.30港元",
+      "entry_fee": null,
+      "rating": null,
+      "pros": ["数码解决方案服务", "今日申购"],
+      "cons": ["信息有限，需进一步研究"],
+      "analysis": "驭势科技正在招股中（5/12-5/15截止），5/20上市。数码解决方案服务公司。",
+      "recommendation": "招股中，5/15截止，请关注。"
+    },
     {
       "code": "06872",
       "name": "丹诺医药-B",
@@ -14,11 +29,11 @@
       "listing_date": "5/22",
       "price_range": "75.70港元",
       "entry_fee": "3823",
-      "rating": null,
-      "pros": ["无基石投资者（市场化申购）", "保荐人：中信证券、农银国际"],
-      "cons": ["未盈利（-B标识）", "临床阶段biotech，风险较高"],
-      "analysis": "丹诺医药-B正在招股中，5/14-5/19公开招股，5/22主板上市。临近商业化阶段的感染领域新药公司，发售价75.70港元，入场费约3823港元。",
-      "recommendation": "招股中，5/19截止，请关注。"
+      "rating": 5.5,
+      "pros": ["感染领域差异化新药，临近商业化", "保荐人：中信证券、农银国际"],
+      "cons": ["未盈利（-B标识）", "临床阶段biotech，无基石投资者", "细菌感染领域竞争激烈"],
+      "analysis": "丹诺医药-B正在招股中，5/14-5/19公开招股，5/22主板上市。临近商业化阶段的感染领域新药公司，发售价75.70港元，入场费约3823港元，无基石投资者。",
+      "recommendation": "观望，临床阶段biotech风险较高。"
     },
     {
       "code": "07688",
@@ -29,11 +44,11 @@
       "listing_date": "5/20",
       "price_range": "26.39港元",
       "entry_fee": "2666",
-      "rating": null,
-      "pros": ["基石阵容强（RBC、Boyu Capital、CDH等）", "中国高端五轴数控机床龙头，航空航天核心供应商", "联席保荐人：国泰君安、建银国际"],
-      "cons": ["尚未盈利", "高端制造业估值偏高"],
+      "rating": 7.8,
+      "pros": ["中国高端五轴数控机床龙头，航空航天核心供应商", "基石阵容强（RBC、Boyu Capital、CDH等）", "联席保荐人：国泰君安、建银国际"],
+      "cons": ["高端制造业估值偏高", "受航空航天资本开支周期影响"],
       "analysis": "拓璞数控正在招股中，5/12-5/15截止，5/20上市。中国高端五轴数控机床龙头，航空航天领域核心供应商，基石投资者包括RBC、Boyu Capital等知名机构。",
-      "recommendation": "招股中，5/15截止，建议重点关注。"
+      "recommendation": "优质制造龙头，建议重点关注。"
     }
   ],
   "listing_tomorrow": [
