@@ -13,12 +13,12 @@
       "subscription_end": "5/15",
       "listing_date": "5/20",
       "price_range": "60.30港元",
-      "entry_fee": null,
-      "rating": null,
-      "pros": ["数码解决方案服务", "今日申购"],
-      "cons": ["信息有限，需进一步研究"],
-      "analysis": "驭势科技正在招股中（5/12-5/15截止），5/20上市。数码解决方案服务公司。",
-      "recommendation": "招股中，5/15截止，请关注。"
+      "entry_fee": "3015",
+      "rating": 7.5,
+      "pros": ["L4级自动驾驶解决方案商，机场/厂区封闭场景市场占有率第一", "港股自动驾驶第一股，行业稀缺性高", "基石投资者：雄安自动驾驶、CYGG Holding、Starwin International（共认购约2.61亿港元）", "独家保荐人：中信证券", "已服务35家世界500强企业，客户质量高"],
+      "cons": ["尚未盈利，自动驾驶行业商业化仍在早期", "估值偏高（73亿人民币）", "L4级自动驾驶政策法规存在不确定性"],
+      "analysis": "驭势科技正在招股中（5/12-5/15截止），5/20上市。L4级自动驾驶解决方案商，机场/厂区封闭场景市场占有率第一，全球唯一为机场提供大型商业运营L4级自动驾驶解决方案的供应商。基石投资者阵容强劲（雄安自动驾驶等三家），港股自动驾驶第一股。",
+      "recommendation": "稀缺性高，基石阵容强，建议重点关注。"
     },
     {
       "code": "06872",
@@ -104,7 +104,7 @@
       "dark_pool_price": 40.20,
       "dark_pool_pct": 2.21,
       "first_day_pct": null,
-      "cumulative_pct": null
+      "cumulative_pct": -13.30
     },
     {
       "code": "01609",
@@ -113,8 +113,8 @@
       "ipo_price": 98.50,
       "dark_pool_price": 290.40,
       "dark_pool_pct": 198.48,
-      "first_day_pct": null,
-      "cumulative_pct": null
+      "first_day_pct": 118.27,
+      "cumulative_pct": 105.08
     },
     {
       "code": "06810",
