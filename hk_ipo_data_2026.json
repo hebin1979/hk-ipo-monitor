@@ -1,56 +1,86 @@
 {
   "metadata": {
-    "last_update": "2026年5月6日",
-    "total_ipos": 38,
+    "last_update": "2026年5月14日",
+    "total_ipos": 41,
     "description": "2026年港股IPO数据"
   },
   "currently_subscribing": [
     {
-      "code": "07630",
-      "name": "英派药业-B",
+      "code": "06872",
+      "name": "丹诺医药-B",
       "name_en": "",
-      "subscription_start": "5/5",
-      "subscription_end": "5/8",
-      "listing_date": "5/13",
-      "price_range": "19.75-21.75港元",
-      "entry_fee": "4394",
-      "rating": 6.5,
-      "pros": [],
-      "cons": [],
-      "analysis": "英派药业-B正在招股中，截止日期5/8，将于5/13上市。超额认购99倍。",
-      "recommendation": "招股中，截止5/8，请关注。"
+      "subscription_start": "5/14",
+      "subscription_end": "5/19",
+      "listing_date": "5/22",
+      "price_range": "75.70港元",
+      "entry_fee": "3823",
+      "rating": null,
+      "pros": ["无基石投资者（市场化申购）", "保荐人：中信证券、农银国际"],
+      "cons": ["未盈利（-B标识）", "临床阶段biotech，风险较高"],
+      "analysis": "丹诺医药-B正在招股中，5/14-5/19公开招股，5/22主板上市。临近商业化阶段的感染领域新药公司，发售价75.70港元，入场费约3823港元。",
+      "recommendation": "招股中，5/19截止，请关注。"
     },
     {
-      "code": "07666",
-      "name": "剂泰科技-P",
+      "code": "07688",
+      "name": "拓璞数控",
       "name_en": "",
-      "subscription_start": "5/5",
-      "subscription_end": "5/8",
-      "listing_date": "5/13",
-      "price_range": "10.5港元",
-      "entry_fee": "5303",
-      "rating": 8.8,
-      "pros": ["基石阵容极强（贝莱德5000万美元领衔，18家顶级机构认购1.48亿美元）", "全球AI纳米递送第一股，行业稀缺性极高", "AI制药三小龙之一，技术壁垒高", "保荐人阵容强（富瑞、德意志、中信）"],
-      "cons": ["未盈利（-P标识），短期无利润", "市值121亿港元，估值不算便宜"],
-      "analysis": "剂泰科技-P正在招股中，截止日期5/8，将于5/13上市。超额认购550倍，基石投资者阵容极强（贝莱德领衔，18家顶级机构），全球AI纳米递送第一股，评分8.8分，强烈推荐。",
-      "recommendation": "极高推荐！基石阵容罕见强大，建议重仓参与。"
+      "subscription_start": "5/12",
+      "subscription_end": "5/15",
+      "listing_date": "5/20",
+      "price_range": "26.39港元",
+      "entry_fee": "2666",
+      "rating": null,
+      "pros": ["基石阵容强（RBC、Boyu Capital、CDH等）", "中国高端五轴数控机床龙头，航空航天核心供应商", "联席保荐人：国泰君安、建银国际"],
+      "cons": ["尚未盈利", "高端制造业估值偏高"],
+      "analysis": "拓璞数控正在招股中，5/12-5/15截止，5/20上市。中国高端五轴数控机床龙头，航空航天领域核心供应商，基石投资者包括RBC、Boyu Capital等知名机构。",
+      "recommendation": "招股中，5/15截止，建议重点关注。"
     }
   ],
   "listing_tomorrow": [
     {
-      "code": "01236",
-      "name": "乐动机器人",
+      "code": "06871",
+      "name": "翼菲科技",
       "name_en": "",
-      "listing_date": "5/11",
-      "pricing": "24-30港元",
-      "entry_fee": "6061",
-      "rating": 8.5,
-      "oversubscription": "8714倍",
-      "analysis": "乐动机器人招股已截止（5/6），将于5/11上市。超额认购8714倍，市场极度看好。",
+      "listing_date": "5/18",
+      "pricing": "30.5港元",
+      "entry_fee": null,
+      "rating": null,
+      "oversubscription": "14912倍",
+      "analysis": "翼菲科技招股已截止（5/13），将于5/18上市。申购倍数高达14912倍，创港股史上第二大超购，无基石投资者也无绿鞋机制，激进市场化申购。工业机器人企业，18C特专科技公司。",
       "recommendation": "即将上市，请关注首日表现。"
     }
   ],
   "listed_ipos_2026": [
+    {
+      "code": "07630",
+      "name": "英派药业-B",
+      "listing_date": "5/13",
+      "ipo_price": 20.10,
+      "dark_pool_price": 32.16,
+      "dark_pool_pct": 60.00,
+      "first_day_pct": 108.26,
+      "cumulative_pct": 108.26
+    },
+    {
+      "code": "07666",
+      "name": "剂泰科技-P",
+      "listing_date": "5/13",
+      "ipo_price": 10.50,
+      "dark_pool_price": 30.32,
+      "dark_pool_pct": 188.76,
+      "first_day_pct": 126.67,
+      "cumulative_pct": 90.34
+    },
+    {
+      "code": "01236",
+      "name": "乐动机器人",
+      "listing_date": "5/11",
+      "ipo_price": 26.36,
+      "dark_pool_price": 49.80,
+      "dark_pool_pct": 88.90,
+      "first_day_pct": 127.62,
+      "cumulative_pct": 72.05
+    },
     {
       "code": "01187",
       "name": "可孚医疗",
