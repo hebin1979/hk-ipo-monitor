@@ -1,25 +1,10 @@
 {
   "metadata": {
-    "last_update": "2026年5月14日",
-    "total_ipos": 42,
+    "last_update": "2026年5月18日",
+    "total_ipos": 45,
     "description": "2026年港股IPO数据"
   },
   "currently_subscribing": [
-    {
-      "code": "01511",
-      "name": "驭势科技",
-      "name_en": "",
-      "subscription_start": "5/12",
-      "subscription_end": "5/15",
-      "listing_date": "5/20",
-      "price_range": "60.30港元",
-      "entry_fee": "3015",
-      "rating": 7.5,
-      "pros": ["L4级自动驾驶解决方案商，机场/厂区封闭场景市场占有率第一", "港股自动驾驶第一股，行业稀缺性高", "基石投资者：雄安自动驾驶、CYGG Holding、Starwin International（共认购约2.61亿港元）", "独家保荐人：中信证券", "已服务35家世界500强企业，客户质量高"],
-      "cons": ["尚未盈利，自动驾驶行业商业化仍在早期", "估值偏高（73亿人民币）", "L4级自动驾驶政策法规存在不确定性"],
-      "analysis": "驭势科技正在招股中（5/12-5/15截止），5/20上市。L4级自动驾驶解决方案商，机场/厂区封闭场景市场占有率第一，全球唯一为机场提供大型商业运营L4级自动驾驶解决方案的供应商。基石投资者阵容强劲（雄安自动驾驶等三家），港股自动驾驶第一股。",
-      "recommendation": "稀缺性高，基石阵容强，建议重点关注。"
-    },
     {
       "code": "06872",
       "name": "丹诺医药-B",
@@ -36,36 +21,88 @@
       "recommendation": "观望，临床阶段biotech风险较高。"
     },
     {
-      "code": "07688",
-      "name": "拓璞数控",
+      "code": "00901",
+      "name": "华曦达",
       "name_en": "",
-      "subscription_start": "5/12",
-      "subscription_end": "5/15",
-      "listing_date": "5/20",
-      "price_range": "26.39港元",
-      "entry_fee": "2666",
-      "rating": 7.8,
-      "pros": ["中国高端五轴数控机床龙头，航空航天核心供应商", "基石阵容强（RBC、Boyu Capital、CDH等）", "联席保荐人：国泰君安、建银国际"],
-      "cons": ["高端制造业估值偏高", "受航空航天资本开支周期影响"],
-      "analysis": "拓璞数控正在招股中，5/12-5/15截止，5/20上市。中国高端五轴数控机床龙头，航空航天领域核心供应商，基石投资者包括RBC、Boyu Capital等知名机构。",
-      "recommendation": "优质制造龙头，建议重点关注。"
+      "subscription_start": "5/18",
+      "subscription_end": "5/21",
+      "listing_date": "5/27",
+      "price_range": "32.80港元",
+      "entry_fee": "3313",
+      "rating": 6.5,
+      "pros": ["智慧家庭产品提供商，全球排名第八、中国第三", "谷歌生态深度合作，主要客户为全球电信运营商", "独家中信建投国际保荐", "募资6.3亿港元，规模适中"],
+      "cons": ["ODM模式利润薄，毛利率低", "客户集中度高，主要面向B端", "估值68亿港元偏贵"],
+      "analysis": "华曦达正在招股中（5/18-5/21截止），5/27上市。面向全球企业客户的智慧家庭产品提供商，采用ODM模式深度绑定谷歌生态，全球排名第八、中国第三。入场费3313港元，独家保荐人中信建投国际。",
+      "recommendation": "有特色但利润率薄，观望为主。"
+    },
+    {
+      "code": "03310",
+      "name": "云英谷科技",
+      "name_en": "",
+      "subscription_start": "5/18",
+      "subscription_end": "5/21",
+      "listing_date": "5/27",
+      "price_range": "20.81港元",
+      "entry_fee": "4204",
+      "rating": 8.0,
+      "pros": ["全球智能手机AMOLED显示驱动芯片第五大供应商，中国大陆最大", "基石阵容强：Digital Vista（武岳峰资本）、SpreadCom共认购3.89亿港元", "联席保荐人：中金、中信证券", "募资净额近10亿港元，战略投资明确"],
+      "cons": ["消费电子行业景气度下降，智能手机需求疲软", "Fabless模式依赖代工厂产能"],
+      "analysis": "云英谷科技正在招股中（5/18-5/21截止），5/27上市。全球AMOLED显示驱动芯片第五大供应商、中国大陆最大，基石投资者包括武岳峰资本相关方，联席保荐人中金+中信证券，入场费4204港元。",
+      "recommendation": "半导体稀缺标的，基石强，建议重点关注。"
+    },
+    {
+      "code": "02723",
+      "name": "深演智能",
+      "name_en": "",
+      "subscription_start": "5/18",
+      "subscription_end": "5/21",
+      "listing_date": "5/27",
+      "price_range": "43.5-55.5港元",
+      "entry_fee": "5606",
+      "rating": 6.0,
+      "pros": ["中国营销和销售决策AI应用市场排名第一（份额2.6%）", "保荐人工银国际", "募资最多5亿港元"],
+      "cons": ["无基石投资者", "发行价区间43.5-55.5港元，区间较大（相差约27%）", "去年盈利大跌58.6%，成长性存疑"],
+      "analysis": "深演智能正在招股中（5/18-5/21截止），5/27上市。中国决策AI第一股，营销AI市场排名首位，但无基石投资者，发行价区间较宽（43.5-55.5港元），入场费5606港元较高。",
+      "recommendation": "赛道新颖但定价区间宽，无基石投资者，谨慎参与。"
     }
   ],
   "listing_tomorrow": [
     {
-      "code": "06871",
-      "name": "翼菲科技",
+      "code": "07688",
+      "name": "拓璞数控",
       "name_en": "",
-      "listing_date": "5/18",
-      "pricing": "30.5港元",
-      "entry_fee": null,
-      "rating": null,
-      "oversubscription": "14912倍",
-      "analysis": "翼菲科技招股已截止（5/13），将于5/18上市。申购倍数高达14912倍，创港股史上第二大超购，无基石投资者也无绿鞋机制，激进市场化申购。工业机器人企业，18C特专科技公司。",
-      "recommendation": "即将上市，请关注首日表现。"
+      "listing_date": "5/20",
+      "pricing": "26.39港元",
+      "entry_fee": "2666",
+      "rating": 7.8,
+      "oversubscription": null,
+      "analysis": "拓璞数控招股已截止（5/15），5/20上市。中国高端五轴数控机床龙头，航空航天核心供应商，基石阵容强（RBC、Boyu Capital、CDH等14家），联席保荐人国泰君安+建银国际。明日上市，请关注暗盘表现（5/19）。",
+      "recommendation": "优质制造龙头，基石强，明日上市，关注。"
+    },
+    {
+      "code": "01511",
+      "name": "驭势科技",
+      "name_en": "",
+      "listing_date": "5/20",
+      "pricing": "60.30港元",
+      "entry_fee": "3045",
+      "rating": 7.5,
+      "oversubscription": "4666倍",
+      "analysis": "驭势科技招股已截止（5/15），5/20上市。L4级自动驾驶解决方案商，机场/厂区封闭场景市占率第一，港股自动驾驶第一股。孖展超购4666倍，基石：雄安自动驾驶、CYGG Holding、Starwin International，独家保荐人中信证券。明日上市，请关注。",
+      "recommendation": "自动驾驶稀缺标的，孖展4666倍，基石强，建议重点关注。"
     }
   ],
   "listed_ipos_2026": [
+    {
+      "code": "06871",
+      "name": "翼菲科技",
+      "listing_date": "5/18",
+      "ipo_price": 30.50,
+      "dark_pool_price": null,
+      "dark_pool_pct": null,
+      "first_day_pct": 81.15,
+      "cumulative_pct": 81.15
+    },
     {
       "code": "07630",
       "name": "英派药业-B",
