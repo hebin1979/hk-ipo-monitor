@@ -1,0 +1,625 @@
+{
+  "metadata": {
+    "last_update": "2026年6月12日",
+    "total_ipos": 60,
+    "description": "2026年港股IPO数据"
+  },
+  "currently_subscribing": [
+    {
+      "code": "01392",
+      "name": "海清智元",
+      "name_en": "",
+      "subscription_start": "6/11",
+      "subscription_end": "6/16",
+      "listing_date": "6/22",
+      "price_range": "7.2港元",
+      "entry_fee": "3636",
+      "rating": 7.0,
+      "pros": [
+        "港股首家聚焦多光谱AI的企业",
+        "「物理AI第一股」鲜明定位",
+        "全国行业榜首地位",
+        "国家级专精特新重点小巨人企业",
+        "多光谱AI技术门槛高，竞争优势明显",
+        "民银资本与浦银国际担任联席保荐人，背书强"
+      ],
+      "cons": [
+        "招股价7.2港元，估值需关注",
+        "多光谱AI市场仍在培育期，商业化进程待观察",
+        "入场费3636港元，门槛较低但也可能意味着散户参与度高",
+        "作为新兴技术领域，面临技术迭代风险"
+      ],
+      "analysis": "海清智元(01392)于6月11日启动招股，6/16截止，6/22上市。公司是港股首家聚焦多光谱AI的企业，定位「物理AI第一股」，拥有全国行业榜首地位和国家级专精特新重点小巨人称号。多光谱AI技术门槛高，竞争优势明显。民银资本与浦银国际担任联席保荐人，机构背书强。但需关注估值合理性和商业化进程。",
+      "recommendation": "技术领先，行业地位突出，机构背书强。建议积极参与，但需注意估值和商业化风险。"
+    },
+    {
+      "code": "06132",
+      "name": "华健未来",
+      "name_en": "",
+      "subscription_start": "6/12",
+      "subscription_end": "6/17",
+      "listing_date": "6/23",
+      "price_range": "81.8港元",
+      "entry_fee": "8262",
+      "rating": 6.5,
+      "pros": [
+        "生物科技公司，聚焦免疫学、代谢和肿瘤学领域",
+        "管线产品丰富，临床研究及开发活动进行中",
+        "拟将80.6%募集资金用于临床研究及开发",
+        "独家保荐人为中信证券，机构实力强",
+        "逐步建立商业化团队，为产品上市做准备"
+      ],
+      "cons": [
+        "生物科技公司研发风险高，临床试验不确定性大",
+        "招股价81.8港元，入场费8262港元，门槛较高",
+        "盈利时间不确定，生物科技公司通常短期难以盈利",
+        "市场竞争激烈，需关注差异化竞争优势"
+      ],
+      "analysis": "华健未来(06132)于6月12日启动招股，6/17截止，6/23上市。公司是生物科技公司，聚焦免疫学、代谢和肿瘤学领域。拟将80.6%募集资金用于临床研究及开发，研发投入大。独家保荐人为中信证券，机构实力强。但生物科技公司研发风险高，盈利时间不确定。",
+      "recommendation": "生物科技赛道优质，但研发风险高。建议有风险承受能力的投资者参与，或等待上市后观察临床进展再作决定。"
+    },
+    {
+      "code": "06067",
+      "name": "星源材质",
+      "name_en": "",
+      "subscription_start": "6/12",
+      "subscription_end": "6/17",
+      "listing_date": "6/23",
+      "price_range": "不超过8.98港元",
+      "entry_fee": "4490",
+      "rating": 7.5,
+      "pros": [
+        "锂电池隔膜行业龙头企业",
+        "全球市场份额领先，客户包括宁德时代等知名电池厂商",
+        "新能源行业长期成长空间大",
+        "中信建投国际为独家保荐人，机构实力强",
+        "招股价不超过8.98港元，估值相对合理"
+      ],
+      "cons": [
+        "新能源行业竞争激烈，面临价格战压力",
+        "锂电池隔膜行业产能扩张快，需关注供需平衡",
+        "原材料价格波动风险",
+        "港股新能源板块估值承压"
+      ],
+      "analysis": "星源材质(06067)于6月12日启动招股，6/17截止，6/23上市。公司是锂电池隔膜行业龙头企业，全球市场份额领先，客户包括宁德时代等知名电池厂商。新能源行业长期成长空间大。中信建投国际为独家保荐人，机构实力强。但新能源行业竞争激烈，需关注供需平衡。",
+      "recommendation": "行业龙头地位稳固，长期成长空间大。建议积极参与，重点关注上市后行业供需变化。"
+    },
+    {
+      "code": "06675",
+      "name": "Senasic",
+      "name_en": "",
+      "subscription_start": "6/10",
+      "subscription_end": "6/12",
+      "listing_date": "6/17",
+      "price_range": "18.36港元",
+      "entry_fee": "3709",
+      "rating": 6.0,
+      "pros": [
+        "半导体产品及设备行业",
+        "招股价18.36港元，入场费3709港元，门槛适中",
+        "6/17上市，招股期短"
+      ],
+      "cons": [
+        "招股截止日为6/12（今天），时间紧迫",
+        "半导体行业周期性波动风险",
+        "详细信息有限，需进一步研究"
+      ],
+      "analysis": "Senasic(06675)招股截止日为6/12（今天），6/17上市。公司是半导体产品及设备行业，招股价18.36港元，入场费3709港元。但招股截止日紧迫，且详细信息有限。",
+      "recommendation": "招股截止日紧迫，建议谨慎参与。如需参与，请尽快决策。"
+    },
+    {
+      "code": "06658",
+      "name": "溜溜梅",
+      "name_en": "",
+      "subscription_start": "6/5",
+      "subscription_end": "6/10",
+      "listing_date": "6/15",
+      "price_range": "43.58港元",
+      "entry_fee": "4316",
+      "rating": 6.0,
+      "pros": [
+        "中国果类零食行业第一（市占率4.9%）",
+        "中国天然果冻行业第一（市占率45.7%）",
+        "业绩稳健增长：2025年收入18.94亿（+8.55%），净利润2.02亿（+26.38%）",
+        "毛利率稳定（~36%），盈利能力良好",
+        "基石投资者：分众传媒创始人江南春+地方政府背景，合计认购1.476亿港元（占29.5%）",
+        "资产负债率改善（63% → 56%）",
+        "品牌历史悠久（2001年创立），市场认知度高"
+      ],
+      "cons": [
+        "流动比率偏低（1.03），短期偿债能力弱",
+        "果类零食行业高度分散，市占率仅4.9%，面临激烈竞争",
+        "海外收入占比极低（0.05%），国际化进程缓慢",
+        "IPO前夕大额分红6730万元，大部分流入创始人夫妇（持股87.77%），损害小股东利益",
+        "成长性一般（收入增速8.55%）",
+        "估值17倍PE，对照A股休闲零食龙头无明显吸引力",
+        "原材料价格波动风险（青梅等水果）"
+      ],
+      "analysis": "溜溜梅正在招股中（6/5-6/10截止），6/15上市。公司是中国果类零食行业领军企业（市占率4.9%）及天然果冻行业龙头（市占率45.7%）。2025年业绩稳健：收入18.94亿港元（+8.55%），净利润2.02亿港元（+26.38%），毛利率约36%。基石投资者包括分众传媒创始人江南春旗下的达隆发展和芜湖地方政府背景的Fanchang Revitalization，合计认购1.476亿港元（占发售股份约29.5%）。但需注意：1）流动比率1.03偏低；2）IPO前夕大额分红6730万元流入创始人夫妇；3）成长性一般；4）17倍PE估值无明显优势。",
+      "recommendation": "基本面稳健，细分龙头地位稳固，有基石投资者背书。但IPO前夕大额分红损害小股东利益，成长性一般，估值无明显吸引力。建议谨慎参与，或可等待上市后股价稳定再考虑介入。"
+    }
+  ],
+  "listing_tomorrow": [],
+  "listed_ipos_2026": [
+    {
+      "code": "02553",
+      "name": "首钢朗泽",
+      "listing_date": "6/3",
+      "ipo_price": 17.1,
+      "dark_pool_price": null,
+      "dark_pool_pct": null,
+      "first_day_pct": 23.16,
+      "cumulative_pct": 91.93
+    },
+    {
+      "code": "01081",
+      "name": "大金重工",
+      "listing_date": "6/5",
+      "ipo_price": 66.4,
+      "dark_pool_price": null,
+      "dark_pool_pct": null,
+      "first_day_pct": 0.0,
+      "cumulative_pct": -4.44
+    },
+    {
+      "code": "02290",
+      "name": "龙丰集团",
+      "listing_date": "6/5",
+      "ipo_price": 6.38,
+      "dark_pool_price": null,
+      "dark_pool_pct": null,
+      "first_day_pct": -55.96,
+      "cumulative_pct": -59.87
+    },
+    {
+      "code": "01779",
+      "name": "天辰生物-B",
+      "listing_date": "6/5",
+      "ipo_price": 96.06,
+      "dark_pool_price": null,
+      "dark_pool_pct": null,
+      "first_day_pct": 37.21,
+      "cumulative_pct": 26.69
+    },
+    {
+      "code": "00901",
+      "name": "华曦达",
+      "listing_date": "5/27",
+      "ipo_price": 32.8,
+      "dark_pool_price": 63.5,
+      "dark_pool_pct": 93.0,
+      "first_day_pct": 86.59,
+      "cumulative_pct": 86.59
+    },
+    {
+      "code": "03310",
+      "name": "云英谷科技",
+      "listing_date": "5/27",
+      "ipo_price": 20.81,
+      "dark_pool_price": 25.14,
+      "dark_pool_pct": 20.8,
+      "first_day_pct": 91.73,
+      "cumulative_pct": 91.73
+    },
+    {
+      "code": "02723",
+      "name": "深演智能",
+      "listing_date": "5/27",
+      "ipo_price": 55.5,
+      "dark_pool_price": 149.0,
+      "dark_pool_pct": 168.47,
+      "first_day_pct": 265.77,
+      "cumulative_pct": 265.77
+    },
+    {
+      "code": "07688",
+      "name": "拓璞数控",
+      "listing_date": "5/20",
+      "ipo_price": 26.39,
+      "dark_pool_price": 39.0,
+      "dark_pool_pct": 47.8,
+      "first_day_pct": 80.0,
+      "cumulative_pct": 80.0
+    },
+    {
+      "code": "01511",
+      "name": "驭势科技",
+      "listing_date": "5/20",
+      "ipo_price": 60.3,
+      "dark_pool_price": 59.55,
+      "dark_pool_pct": -1.2,
+      "first_day_pct": -4.64,
+      "cumulative_pct": -4.64
+    },
+    {
+      "code": "06871",
+      "name": "翼菲科技",
+      "listing_date": "5/18",
+      "ipo_price": 30.5,
+      "dark_pool_price": null,
+      "dark_pool_pct": null,
+      "first_day_pct": 81.15,
+      "cumulative_pct": 81.15
+    },
+    {
+      "code": "07630",
+      "name": "英派药业-B",
+      "listing_date": "5/13",
+      "ipo_price": 20.1,
+      "dark_pool_price": 32.16,
+      "dark_pool_pct": 60.0,
+      "first_day_pct": 108.26,
+      "cumulative_pct": 108.26
+    },
+    {
+      "code": "07666",
+      "name": "剂泰科技-P",
+      "listing_date": "5/13",
+      "ipo_price": 10.5,
+      "dark_pool_price": 30.32,
+      "dark_pool_pct": 188.76,
+      "first_day_pct": 126.67,
+      "cumulative_pct": 90.34
+    },
+    {
+      "code": "01236",
+      "name": "乐动机器人",
+      "listing_date": "5/11",
+      "ipo_price": 26.36,
+      "dark_pool_price": 49.8,
+      "dark_pool_pct": 88.9,
+      "first_day_pct": 127.62,
+      "cumulative_pct": 72.05
+    },
+    {
+      "code": "01187",
+      "name": "可孚医疗",
+      "listing_date": "5/6",
+      "ipo_price": 39.33,
+      "dark_pool_price": 40.2,
+      "dark_pool_pct": 2.21,
+      "first_day_pct": -1.09,
+      "cumulative_pct": -13.3
+    },
+    {
+      "code": "01609",
+      "name": "天星医疗",
+      "listing_date": "5/5",
+      "ipo_price": 98.5,
+      "dark_pool_price": 290.4,
+      "dark_pool_pct": 198.48,
+      "first_day_pct": 118.27,
+      "cumulative_pct": 105.08
+    },
+    {
+      "code": "06810",
+      "name": "商米科技-W",
+      "listing_date": "4/29",
+      "ipo_price": 24.86,
+      "dark_pool_price": 94.98,
+      "dark_pool_pct": 282.14,
+      "first_day_pct": 241.11,
+      "cumulative_pct": 15.2
+    },
+    {
+      "code": "01879",
+      "name": "曦智科技-P",
+      "listing_date": "4/28",
+      "ipo_price": 183.2,
+      "dark_pool_price": 825.0,
+      "dark_pool_pct": 351.0,
+      "first_day_pct": 383.62,
+      "cumulative_pct": 8.5
+    },
+    {
+      "code": "02493",
+      "name": "迈威生物-B",
+      "listing_date": "4/28",
+      "ipo_price": 27.64,
+      "dark_pool_price": 28.5,
+      "dark_pool_pct": 3.11,
+      "first_day_pct": 0.58,
+      "cumulative_pct": -2.1
+    },
+    {
+      "code": "03296",
+      "name": "华勤技术",
+      "listing_date": "4/23",
+      "ipo_price": 77.7,
+      "dark_pool_price": 91.14,
+      "dark_pool_pct": 17.3,
+      "first_day_pct": 13.26,
+      "cumulative_pct": -1.5
+    },
+    {
+      "code": "02476",
+      "name": "胜宏科技",
+      "listing_date": "4/21",
+      "ipo_price": 209.88,
+      "dark_pool_price": 336.2,
+      "dark_pool_pct": 60.19,
+      "first_day_pct": 50.09,
+      "cumulative_pct": 8.3
+    },
+    {
+      "code": "00068",
+      "name": "群核科技",
+      "listing_date": "4/17",
+      "ipo_price": 7.62,
+      "dark_pool_price": 20.51,
+      "dark_pool_pct": 169.29,
+      "first_day_pct": 144.09,
+      "cumulative_pct": 420.15
+    },
+    {
+      "code": "03277",
+      "name": "长光辰芯",
+      "listing_date": "4/17",
+      "ipo_price": 39.88,
+      "dark_pool_price": 68.59,
+      "dark_pool_pct": 72.02,
+      "first_day_pct": 75.53,
+      "cumulative_pct": -8.9
+    },
+    {
+      "code": "06656",
+      "name": "思格新能",
+      "listing_date": "4/16",
+      "ipo_price": 324.2,
+      "dark_pool_price": 597.8,
+      "dark_pool_pct": 84.45,
+      "first_day_pct": 103.42,
+      "cumulative_pct": 72.3
+    },
+    {
+      "code": "03625",
+      "name": "傅里叶",
+      "listing_date": "3/31",
+      "ipo_price": 40.0,
+      "dark_pool_price": 83.5,
+      "dark_pool_pct": 108.75,
+      "first_day_pct": 100.0,
+      "cumulative_pct": 225.8
+    },
+    {
+      "code": "00664",
+      "name": "铜师傅",
+      "listing_date": "3/31",
+      "ipo_price": 60.0,
+      "dark_pool_price": 41.96,
+      "dark_pool_pct": -30.07,
+      "first_day_pct": -49.17,
+      "cumulative_pct": -58.4
+    },
+    {
+      "code": "06636",
+      "name": "极视角",
+      "listing_date": "3/30",
+      "ipo_price": 40.0,
+      "dark_pool_price": 61.8,
+      "dark_pool_pct": 54.5,
+      "first_day_pct": 150.0,
+      "cumulative_pct": 212.5
+    },
+    {
+      "code": "02726",
+      "name": "瀚天天成",
+      "listing_date": "3/30",
+      "ipo_price": 76.26,
+      "dark_pool_price": 105.0,
+      "dark_pool_pct": 37.69,
+      "first_day_pct": 35.06,
+      "cumulative_pct": -3.2
+    },
+    {
+      "code": "02526",
+      "name": "德适-B",
+      "listing_date": "3/30",
+      "ipo_price": 99.0,
+      "dark_pool_price": 199.5,
+      "dark_pool_pct": 101.52,
+      "first_day_pct": 111.72,
+      "cumulative_pct": 208.9
+    },
+    {
+      "code": "01021",
+      "name": "华沿机器人",
+      "listing_date": "3/30",
+      "ipo_price": 17.0,
+      "dark_pool_price": 18.77,
+      "dark_pool_pct": 10.41,
+      "first_day_pct": 8.24,
+      "cumulative_pct": 38.5
+    },
+    {
+      "code": "02729",
+      "name": "凯乐士科技",
+      "listing_date": "3/24",
+      "ipo_price": 16.66,
+      "dark_pool_price": 30.53,
+      "dark_pool_pct": 83.19,
+      "first_day_pct": 84.27,
+      "cumulative_pct": 1.8
+    },
+    {
+      "code": "02632",
+      "name": "泽景股份",
+      "listing_date": "3/24",
+      "ipo_price": 44.2,
+      "dark_pool_price": 49.8,
+      "dark_pool_pct": 12.67,
+      "first_day_pct": -36.92,
+      "cumulative_pct": -5.6
+    },
+    {
+      "code": "03355",
+      "name": "飞速创新",
+      "listing_date": "3/23",
+      "ipo_price": 41.6,
+      "dark_pool_price": 60.9,
+      "dark_pool_pct": 46.39,
+      "first_day_pct": 13.46,
+      "cumulative_pct": 19.8
+    },
+    {
+      "code": "02701",
+      "name": "国民技术",
+      "listing_date": "3/23",
+      "ipo_price": 10.8,
+      "dark_pool_price": 11.7,
+      "dark_pool_pct": 8.33,
+      "first_day_pct": 4.17,
+      "cumulative_pct": 16.4
+    },
+    {
+      "code": "01989",
+      "name": "广合科技",
+      "listing_date": "3/20",
+      "ipo_price": 71.88,
+      "dark_pool_price": 95.0,
+      "dark_pool_pct": 32.16,
+      "first_day_pct": 33.56,
+      "cumulative_pct": 108.5
+    },
+    {
+      "code": "03268",
+      "name": "美格智能",
+      "listing_date": "3/10",
+      "ipo_price": 28.86,
+      "dark_pool_price": 29.4,
+      "dark_pool_pct": 1.87,
+      "first_day_pct": 1.52,
+      "cumulative_pct": -15.8
+    },
+    {
+      "code": "02715",
+      "name": "埃斯顿",
+      "listing_date": "3/9",
+      "ipo_price": 15.36,
+      "dark_pool_price": 14.2,
+      "dark_pool_pct": -7.55,
+      "first_day_pct": -16.02,
+      "cumulative_pct": 2.1
+    },
+    {
+      "code": "02692",
+      "name": "兆威机电",
+      "listing_date": "3/9",
+      "ipo_price": 71.28,
+      "dark_pool_price": 84.1,
+      "dark_pool_pct": 17.99,
+      "first_day_pct": 2.41,
+      "cumulative_pct": 1.2
+    },
+    {
+      "code": "02649",
+      "name": "优乐赛共享",
+      "listing_date": "3/9",
+      "ipo_price": 11.0,
+      "dark_pool_price": 14.0,
+      "dark_pool_pct": 27.27,
+      "first_day_pct": -43.64,
+      "cumulative_pct": -8.5
+    },
+    {
+      "code": "09981",
+      "name": "沃尔核材",
+      "listing_date": "2/13",
+      "ipo_price": 20.09,
+      "dark_pool_price": 21.08,
+      "dark_pool_pct": 4.93,
+      "first_day_pct": 2.94,
+      "cumulative_pct": 1.8
+    },
+    {
+      "code": "02706",
+      "name": "海致科技集团",
+      "listing_date": "2/13",
+      "ipo_price": 27.06,
+      "dark_pool_price": 84.0,
+      "dark_pool_pct": 210.42,
+      "first_day_pct": 242.2,
+      "cumulative_pct": -2.8
+    },
+    {
+      "code": "00470",
+      "name": "先导智能",
+      "listing_date": "2/11",
+      "ipo_price": 45.8,
+      "dark_pool_price": 46.3,
+      "dark_pool_pct": 1.09,
+      "first_day_pct": 0.0,
+      "cumulative_pct": 28.6
+    },
+    {
+      "code": "02720",
+      "name": "乐欣户外",
+      "listing_date": "2/10",
+      "ipo_price": 12.25,
+      "dark_pool_price": 24.48,
+      "dark_pool_pct": 99.84,
+      "first_day_pct": 102.29,
+      "cumulative_pct": 2.5
+    },
+    {
+      "code": "00600",
+      "name": "爱芯元智",
+      "listing_date": "2/10",
+      "ipo_price": 28.2,
+      "dark_pool_price": 27.02,
+      "dark_pool_pct": -4.18,
+      "first_day_pct": 0.0,
+      "cumulative_pct": -22.4
+    },
+    {
+      "code": "06809",
+      "name": "澜起科技",
+      "listing_date": "2/9",
+      "ipo_price": 106.89,
+      "dark_pool_price": 149.4,
+      "dark_pool_pct": 39.77,
+      "first_day_pct": 63.72,
+      "cumulative_pct": 98.2
+    },
+    {
+      "code": "03200",
+      "name": "大族数控",
+      "listing_date": "2/6",
+      "ipo_price": 95.8,
+      "dark_pool_price": 116.6,
+      "dark_pool_pct": 21.71,
+      "first_day_pct": 14.82,
+      "cumulative_pct": 1.2
+    },
+    {
+      "code": "02714",
+      "name": "牧原股份",
+      "listing_date": "2/6",
+      "ipo_price": 39.0,
+      "dark_pool_price": 39.74,
+      "dark_pool_pct": 1.9,
+      "first_day_pct": 3.9,
+      "cumulative_pct": -1.8
+    },
+    {
+      "code": "02768",
+      "name": "国恩科技",
+      "listing_date": "2/4",
+      "ipo_price": 36.0,
+      "dark_pool_price": 49.0,
+      "dark_pool_pct": 36.11,
+      "first_day_pct": 11.56,
+      "cumulative_pct": 2.8
+    },
+    {
+      "code": "09980",
+      "name": "东鹏饮料",
+      "listing_date": "2/3",
+      "ipo_price": 248.0,
+      "dark_pool_price": 247.8,
+      "dark_pool_pct": -0.08,
+      "first_day_pct": 1.53,
+      "cumulative_pct": -15.6
+    }
+  ]
+}
