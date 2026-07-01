@@ -261,7 +261,7 @@
       "name_en": "Alebund",
       "listing_date": "6/29",
       "ipo_price": 22.6,
-      "dark_pool_price": null,
+      "dark_pool_price": 42.5,
       "dark_pool_pct": 88.05,
       "first_day_pct": 103.54,
       "cumulative_pct": 103.54
@@ -272,7 +272,7 @@
       "name_en": "",
       "listing_date": "6/29",
       "ipo_price": 15.6,
-      "dark_pool_price": null,
+      "dark_pool_price": 58.1,
       "dark_pool_pct": 272.44,
       "first_day_pct": 367.95,
       "cumulative_pct": 367.95
@@ -283,7 +283,7 @@
       "name_en": "",
       "listing_date": "6/29",
       "ipo_price": 114.0,
-      "dark_pool_price": null,
+      "dark_pool_price": 213.0,
       "dark_pool_pct": 86.84,
       "first_day_pct": 44.74,
       "cumulative_pct": 44.74
@@ -294,7 +294,7 @@
       "name_en": "Merdeka Gold",
       "listing_date": "6/26",
       "ipo_price": 26.6,
-      "dark_pool_price": null,
+      "dark_pool_price": 26.6,
       "dark_pool_pct": 0.0,
       "first_day_pct": -6.54,
       "cumulative_pct": -6.54
@@ -305,7 +305,7 @@
       "name_en": "",
       "listing_date": "6/26",
       "ipo_price": 39.55,
-      "dark_pool_price": null,
+      "dark_pool_price": 119.9,
       "dark_pool_pct": 203.16,
       "first_day_pct": 203.92,
       "cumulative_pct": 203.92
@@ -316,7 +316,7 @@
       "name_en": "",
       "listing_date": "6/26",
       "ipo_price": 60.7,
-      "dark_pool_price": null,
+      "dark_pool_price": 115.4,
       "dark_pool_pct": 90.12,
       "first_day_pct": 84.02,
       "cumulative_pct": 84.02
@@ -327,7 +327,7 @@
       "name_en": "CFMEE",
       "listing_date": "6/26",
       "ipo_price": 252.73,
-      "dark_pool_price": null,
+      "dark_pool_price": 445.2,
       "dark_pool_pct": 76.16,
       "first_day_pct": 103.77,
       "cumulative_pct": 103.77
@@ -338,7 +338,7 @@
       "name_en": "SG Micro",
       "listing_date": "6/26",
       "ipo_price": 85.2,
-      "dark_pool_price": null,
+      "dark_pool_price": 105.7,
       "dark_pool_pct": 24.06,
       "first_day_pct": 47.07,
       "cumulative_pct": 47.07
@@ -349,7 +349,7 @@
       "name_en": "Lingyi iTech",
       "listing_date": "6/26",
       "ipo_price": 10.18,
-      "dark_pool_price": null,
+      "dark_pool_price": 12.35,
       "dark_pool_pct": 21.32,
       "first_day_pct": -4.62,
       "cumulative_pct": -4.62
@@ -359,7 +359,7 @@
       "name": "来福谐波",
       "listing_date": "6/30",
       "ipo_price": 85.5,
-      "dark_pool_price": null,
+      "dark_pool_price": 101.0,
       "dark_pool_pct": 18.13,
       "first_day_pct": 1.23,
       "cumulative_pct": 1.23
@@ -369,7 +369,7 @@
       "name": "江西生物",
       "listing_date": "6/30",
       "ipo_price": 11.2,
-      "dark_pool_price": null,
+      "dark_pool_price": 10.54,
       "dark_pool_pct": -5.89,
       "first_day_pct": -13.0,
       "cumulative_pct": -13.0
@@ -379,7 +379,7 @@
       "name": "鲟龙科技",
       "listing_date": "6/30",
       "ipo_price": 75.5,
-      "dark_pool_price": null,
+      "dark_pool_price": 103.5,
       "dark_pool_pct": 37.09,
       "first_day_pct": 50.99,
       "cumulative_pct": 50.99
@@ -389,7 +389,7 @@
       "name": "真健康医疗-B",
       "listing_date": "6/30",
       "ipo_price": 126.2,
-      "dark_pool_price": null,
+      "dark_pool_price": 326.0,
       "dark_pool_pct": 158.32,
       "first_day_pct": 216.96,
       "cumulative_pct": 216.96
@@ -399,7 +399,7 @@
       "name": "麦科医药-B",
       "listing_date": "6/24",
       "ipo_price": 18.2,
-      "dark_pool_price": null,
+      "dark_pool_price": 35.5,
       "dark_pool_pct": 95.06,
       "first_day_pct": 102.75,
       "cumulative_pct": 102.75
@@ -409,7 +409,7 @@
       "name": "仙工智能",
       "listing_date": "6/24",
       "ipo_price": 101.6,
-      "dark_pool_price": null,
+      "dark_pool_price": 94.2,
       "dark_pool_pct": -7.28,
       "first_day_pct": 4.33,
       "cumulative_pct": 4.33
@@ -429,7 +429,7 @@
       "name": "星源材质",
       "listing_date": "6/23",
       "ipo_price": 8.98,
-      "dark_pool_price": null,
+      "dark_pool_price": 12.64,
       "dark_pool_pct": 40.8,
       "first_day_pct": 22.49,
       "cumulative_pct": 22.49
@@ -459,7 +459,7 @@
       "name": "溜溜梅",
       "listing_date": "6/15",
       "ipo_price": 43.58,
-      "dark_pool_price": null,
+      "dark_pool_price": 99.25,
       "dark_pool_pct": 127.7,
       "first_day_pct": 175.36,
       "cumulative_pct": 175.36
@@ -469,7 +469,7 @@
       "name": "首钢朗泽",
       "listing_date": "6/3",
       "ipo_price": 17.1,
-      "dark_pool_price": null,
+      "dark_pool_price": 36.0,
       "dark_pool_pct": 146.58,
       "first_day_pct": 23.16,
       "cumulative_pct": 91.93
@@ -479,7 +479,7 @@
       "name": "大金重工",
       "listing_date": "6/5",
       "ipo_price": 66.4,
-      "dark_pool_price": null,
+      "dark_pool_price": 63.1,
       "dark_pool_pct": -4.97,
       "first_day_pct": 0.0,
       "cumulative_pct": -4.44
@@ -489,7 +489,7 @@
       "name": "龙丰集团",
       "listing_date": "6/5",
       "ipo_price": 6.38,
-      "dark_pool_price": null,
+      "dark_pool_price": 5.26,
       "dark_pool_pct": 1.54,
       "first_day_pct": -55.96,
       "cumulative_pct": -59.87
@@ -499,7 +499,7 @@
       "name": "天辰生物-B",
       "listing_date": "6/5",
       "ipo_price": 96.06,
-      "dark_pool_price": null,
+      "dark_pool_price": 150.9,
       "dark_pool_pct": 57.09,
       "first_day_pct": 37.21,
       "cumulative_pct": 26.69
@@ -559,7 +559,7 @@
       "name": "翼菲科技",
       "listing_date": "5/18",
       "ipo_price": 30.5,
-      "dark_pool_price": null,
+      "dark_pool_price": 54.65,
       "dark_pool_pct": 79.18,
       "first_day_pct": 81.15,
       "cumulative_pct": 81.15
