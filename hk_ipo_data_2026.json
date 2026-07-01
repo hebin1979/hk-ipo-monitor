@@ -1,184 +1,303 @@
 {
   "metadata": {
-    "last_update": "2026年6月25日",
-    "total_ipos": 70,
+    "last_update": "2026年7月1日",
+    "total_ipos": 69,
     "description": "2026年港股IPO数据"
   },
   "currently_subscribing": [
     {
-      "code": "02697",
-      "name": "真健康医疗-B",
-      "name_en": "",
-      "subscription_start": "6/22",
-      "subscription_end": "6/25",
-      "listing_date": "6/30",
-      "price_range": "119.30-135.40港元",
-      "entry_fee": "2735",
-      "rating": 6.5,
-      "pros": [
-        "经皮穿刺手术及消融手术机器人研发商",
-        "核心产品4个型号均已获国家药监局III类注册证",
-        "入场费2735港元，门槛较低",
-        "手术机器人赛道长期成长空间大",
-        "中金公司+星展亚洲联席保荐"
-      ],
-      "cons": [
-        "持续亏损(2023-2025年)，经营活动现金流为负",
-        "募资规模较小(约3.88亿港元)",
-        "手术机器人商业化进程待验证",
-        "行业竞争激烈，直觉外科等巨头主导"
-      ],
-      "analysis": "真健康医疗-B(02697)于6月22日启动招股，6/25截止，6/30上市。公司从事经皮穿刺手术机器人研发及商业化，核心产品已获III类注册证。入场费较低，但持续亏损且规模较小。手术机器人赛道长期看好，但短期商业化挑战大。",
-      "recommendation": "手术机器人赛道前景好，但亏损和规模是短板。建议适量参与或观望。"
-    },
-    {
-      "code": "06715",
-      "name": "鲟龙科技",
-      "name_en": "Kaluga Queen",
-      "subscription_start": "6/22",
-      "subscription_end": "6/25",
-      "listing_date": "6/30",
-      "price_range": "75.50港元",
-      "entry_fee": "7626",
+      "code": "06880",
+      "name": "MOMENTA-W",
+      "name_en": "Momenta",
+      "subscription_start": "6/29",
+      "subscription_end": "7/3",
+      "listing_date": "7/8",
+      "price_range": "295.60港元",
+      "entry_fee": "5971",
       "rating": 8.0,
       "pros": [
-        "全球最大鱼子酱企业，连续11年销量全球第一",
-        "全球市场份额36.1%，超第二名四倍以上",
-        "盈利强劲：净利率约47.5%，收入复合增长15.4%",
-        "顶级基石：贝莱德/霸菱/泰康/景林等认购7850万美元",
-        "品牌'卡露伽'国际知名度高，产品稀缺性强"
+        "全球自动驾驶AI公司，港交所18C章\"物理AI第一股\"",
+        "14家基石：GIC/贝莱德/富达/奔驰/Oaktree/博裕/高毅等，认购约29.44亿港元",
+        "三年营收翻三倍，成长性强",
+        "中金+德银联席保荐",
+        "自动驾驶+AI双赛道稀缺标的"
       ],
       "cons": [
-        "入场费7626港元，门槛较高",
-        "鱼子酱属奢侈品，经济下行周期需求可能萎缩",
-        "鲟鱼养殖周期长，产能扩张需时",
-        "消费升级趋势不确定性"
+        "入场费5971港元，门槛中等",
+        "定价295.60港元，估值不低",
+        "自动驾驶商业化盈利仍需时间",
+        "港股科技股整体承压"
       ],
-      "analysis": "鲟龙科技(06715)于6月22日启动招股，6/25截止，6/30上市。公司是全球最大鱼子酱企业，连续11年销量第一，市场份额超第二名四倍。盈利能力强(净利率47.5%)，收入增长稳健。基石含贝莱德、霸菱、景林等国际顶级机构。是难得的消费品稀缺标的。",
-      "recommendation": "全球龙头+强劲盈利+顶级基石，稀缺性突出。强烈建议积极参与。"
+      "analysis": "Momenta(06880)于6月29日启动招股，7/3截止，7/8上市。18C章物理AI第一股，14家顶级基石认购近30亿港元。自动驾驶赛道长期看好，但短期估值需消化。",
+      "recommendation": "自动驾驶龙头+顶级基石阵容，稀缺性强。建议积极参与。"
     },
     {
-      "code": "06915",
-      "name": "江西生物",
-      "name_en": "",
-      "subscription_start": "6/22",
-      "subscription_end": "6/25",
-      "listing_date": "6/30",
-      "price_range": "9.33-13.06港元",
-      "entry_fee": "6596",
-      "rating": 6.0,
-      "pros": [
-        "生物科技公司，产品管线覆盖多个治疗领域",
-        "基石投资者富策控股认购5000万港元",
-        "中金+招商证券联席保荐",
-        "募资用于研发、产能扩张及销售网络建设"
-      ],
-      "cons": [
-        "入场费6596港元，门槛中等",
-        "基石投资者规模较小",
-        "生物科技研发风险",
-        "公开信息有限，透明度待提升"
-      ],
-      "analysis": "江西生物(06915)于6月22日启动招股，6/25截止，6/30上市。公司为生物科技企业，中金和招商证券联席保荐。基石投资者规模较小。产品管线及财务细节公开有限。",
-      "recommendation": "信息有限，建议谨慎参与或等待更多披露后评估。"
-    },
-    {
-      "code": "03952",
-      "name": "来福谐波",
-      "name_en": "Laifu Harmonic",
-      "subscription_start": "6/22",
-      "subscription_end": "6/25",
-      "listing_date": "6/30",
-      "price_range": "77.00-85.50港元",
-      "entry_fee": "8636",
-      "rating": 7.5,
-      "pros": [
-        "中国谐波减速器行业第二(市场份额21.4%)",
-        "人形机器人核心部件'关节心脏'供应商",
-        "国内仅两家实现人形机器人谐波减速器量产的企业之一",
-        "双寡头格局(绿的谐波+来福谐波占据近半市场)",
-        "对标绿的谐波(科创板市值超520亿)，估值空间大"
-      ],
-      "cons": [
-        "入场费8636港元，门槛较高",
-        "18C特专科技公司，盈利模式待验证",
-        "谐波减速器技术壁垒高但竞争加剧",
-        "人形机器人商业化进程不确定"
-      ],
-      "analysis": "来福谐波(03952)于6月22日启动招股，6/25截止，6/30上市。公司是中国谐波减速器行业第二，份额21.4%，是人形机器人关节核心部件供应商。与绿的谐波形成双寡头格局。按18C章上市，招银国际独家保荐。人形机器人赛道长期前景广阔。",
-      "recommendation": "人形机器人核心部件稀缺标的，双寡头格局稳固。建议积极参与。"
-    },
-    {
-      "code": "00668",
-      "name": "安克创新",
-      "name_en": "Anker Innovations",
-      "subscription_start": "6/23",
-      "subscription_end": "6/26",
-      "listing_date": "7/2",
-      "price_range": "最高99.32港元",
-      "entry_fee": "10032",
+      "code": "02475",
+      "name": "立讯精密",
+      "name_en": "Luxshare Precision",
+      "subscription_start": "6/30",
+      "subscription_end": "7/6",
+      "listing_date": "7/9",
+      "price_range": "最高63.28港元",
+      "entry_fee": "6392",
       "rating": 8.5,
       "pros": [
-        "全球消费电子跨境自主品牌龙头（Anker/Soundcore/eufy等）",
-        "A+H双重上市，A股300866.SZ已上市",
-        "11家顶级基石：施罗德/高瓴/景林/简街/惠理/UBS/泰康等，认购约23.11亿港元",
-        "H股较A股存在折价空间",
-        "中金+高盛+摩根大通三大顶级投行联席保荐"
+        "A+H双重上市，A股002475.SZ已上市",
+        "中国最大精密智造创新科技公司，苹果核心供应商",
+        "28家基石：淡马锡/高瓴/GIC/景林/ADIA/UBS/腾讯等，认购约117.54亿港元",
+        "募资240亿港元，为近期最大IPO",
+        "中信+高盛+中金三大投行联席保荐"
       ],
       "cons": [
-        "入场费10,032港元，门槛较高",
-        "消费电子行业竞争激烈，产品迭代快",
-        "海外销售占比高，汇率和贸易政策风险",
-        "募资规模大(约46亿港元)，市场承接压力"
+        "入场费6392港元，门槛较高",
+        "H股较A股折价空间有限",
+        "募资规模大，市场承接压力",
+        "消费电子周期风险"
       ],
-      "analysis": "安克创新(00668)于6月23日启动招股，6/26截止，7/2上市。公司是全球消费电子跨境品牌龙头，旗下Anker充电、Soundcore音频、eufy智能家居等品牌全球知名。A+H双重上市，基石投资者阵容豪华。消费电子巨头罕见赴港IPO，市场关注度极高。",
-      "recommendation": "A+H消费电子龙头，品牌矩阵强大，基石阵容顶级。强烈建议积极参与。"
+      "analysis": "立讯精密(02475)于6月30日启动招股，7/6截止，7/9上市。中国精密制造龙头，A+H双重上市。28家顶级基石认购近118亿港元，阵容豪华。募资240亿为年内最大IPO。",
+      "recommendation": "精密制造绝对龙头+顶级基石阵容+A+H稀缺标的。强烈建议积极参与。"
+    },
+    {
+      "code": "00537",
+      "name": "普源精电",
+      "name_en": "RIGOL Technologies",
+      "subscription_start": "6/30",
+      "subscription_end": "7/6",
+      "listing_date": "7/9",
+      "price_range": "最高45.98港元",
+      "entry_fee": "4644",
+      "rating": 7.5,
+      "pros": [
+        "A+H双重上市，A股688337.SH已上市",
+        "中国最大电子测量仪器供应商",
+        "7家基石：HHLR(高瓴)/CPE/阳光电源/苏州高新区等，认购约4.80亿港元",
+        "电子测量仪器国产替代趋势"
+      ],
+      "cons": [
+        "入场费4644港元，门槛中等",
+        "募资规模较小(约11亿港元)",
+        "行业增速有限",
+        "与国际巨头(是德科技等)竞争"
+      ],
+      "analysis": "普源精电(00537)于6月30日启动招股，7/6截止，7/9上市。中国电子测量仪器龙头，A+H双重上市。基石含高瓴、阳光电源等。电子测量仪器国产替代逻辑清晰。",
+      "recommendation": "A+H电子测量龙头，国产替代逻辑清晰。建议适量参与。"
+    },
+    {
+      "code": "02249",
+      "name": "晶合集成",
+      "name_en": "Nexchip",
+      "subscription_start": "6/30",
+      "subscription_end": "7/7",
+      "listing_date": "7/10",
+      "price_range": "30.00-32.30港元",
+      "entry_fee": "3263",
+      "rating": 7.5,
+      "pros": [
+        "A+H双重上市，A股688249.SH已上市",
+        "全球领先12英寸纯晶圆代工企业",
+        "20家基石：集创/奇瑞/歌尔/高毅/高瓴/泰康等，认购约33.72亿港元",
+        "入场费较低",
+        "半导体晶圆代工稀缺标的"
+      ],
+      "cons": [
+        "半导体行业周期性波动",
+        "与台积电等巨头竞争",
+        "产能扩张需要持续资本投入",
+        "H股折价空间不确定"
+      ],
+      "analysis": "晶合集成(02249)于6月30日启动招股，7/7截止，7/10上市。12英寸晶圆代工龙头，A+H双重上市。20家基石阵容庞大，含奇瑞、歌尔等产业资本。入场费较低。",
+      "recommendation": "半导体晶圆代工稀缺标的，基石阵容强。建议积极参与。"
+    },
+    {
+      "code": "02667",
+      "name": "同仁堂医养",
+      "name_en": "Tong Ren Tang Care",
+      "subscription_start": "6/30",
+      "subscription_end": "7/6",
+      "listing_date": "7/7",
+      "price_range": "5.48-6.21港元",
+      "entry_fee": "3105",
+      "rating": 7.0,
+      "pros": [
+        "同仁堂品牌背书，中医药龙头",
+        "入场费低(约3105港元)",
+        "中金公司独家保荐",
+        "中医大健康赛道长期看好"
+      ],
+      "cons": [
+        "传统行业增长缓慢",
+        "募资规模适中",
+        "品牌历史包袱与创新平衡"
+      ],
+      "analysis": "同仁堂医养(02667)招股，7/6截止，7/7上市。同仁堂中医药品牌价值突出，入场费低。中医大健康赛道长期看好。",
+      "recommendation": "品牌价值突出+入场费低。建议适量参与。"
+    },
+    {
+      "code": "02797",
+      "name": "齐云山食品",
+      "name_en": "",
+      "subscription_start": "7/6",
+      "subscription_end": "7/8",
+      "listing_date": "7/9",
+      "price_range": "5-8港元",
+      "entry_fee": "4040",
+      "rating": 5.5,
+      "pros": [
+        "包装食品行业，消费刚需",
+        "入场费较低"
+      ],
+      "cons": [
+        "传统食品行业竞争激烈",
+        "增长空间有限",
+        "无基石投资者信息"
+      ],
+      "analysis": "齐云山食品(02797)将于7/6-7/8招股，7/9上市。传统包装食品企业，信息有限。",
+      "recommendation": "信息有限，建议观望或少量参与。"
+    },
+    {
+      "code": "03752",
+      "name": "珞石机器人",
+      "name_en": "Rokae",
+      "subscription_start": "7/6",
+      "subscription_end": "7/8",
+      "listing_date": "7/9",
+      "price_range": "38港元",
+      "entry_fee": "3838",
+      "rating": 7.0,
+      "pros": [
+        "先进硬件及软件领域",
+        "工业机器人赛道长期看好",
+        "入场费适中"
+      ],
+      "cons": [
+        "公开信息有限",
+        "工业机器人竞争激烈"
+      ],
+      "analysis": "珞石机器人(03752)将于7/6-7/8招股，7/9上市。工业机器人企业，信息有限。",
+      "recommendation": "机器人赛道长期看好，但信息有限。建议谨慎参与。"
+    },
+    {
+      "code": "06951",
+      "name": "三环集团",
+      "name_en": "Three-Circle Group",
+      "subscription_start": "7/6",
+      "subscription_end": "7/8",
+      "listing_date": "7/9",
+      "price_range": "待定",
+      "entry_fee": "10131",
+      "rating": 6.5,
+      "pros": [
+        "电子元件行业龙头",
+        "入场费较高反映定价不低"
+      ],
+      "cons": [
+        "招股价范围待定",
+        "电子元件周期性",
+        "入场费超过1万港元"
+      ],
+      "analysis": "三环集团(06951)将于7/6-7/8招股，7/9上市。电子元件企业，信息有限。",
+      "recommendation": "信息有限，等待更多披露后评估。"
+    },
+    {
+      "code": "06745",
+      "name": "滨化股份",
+      "name_en": "",
+      "subscription_start": "7/7",
+      "subscription_end": "7/9",
+      "listing_date": "7/10",
+      "price_range": "3.05-3.59港元",
+      "entry_fee": "3626",
+      "rating": 6.0,
+      "pros": [
+        "综合化工产品，刚需行业",
+        "入场费较低"
+      ],
+      "cons": [
+        "化工行业周期性明显",
+        "增长空间有限"
+      ],
+      "analysis": "滨化股份(06745)将于7/7-7/9招股，7/10上市。化工企业，入场费较低。",
+      "recommendation": "传统行业标的，建议谨慎参与。"
+    },
+    {
+      "code": "02523",
+      "name": "永康控股",
+      "name_en": "",
+      "subscription_start": "7/8",
+      "subscription_end": "7/10",
+      "listing_date": "7/13",
+      "price_range": "2.20-2.68港元",
+      "entry_fee": "5414",
+      "rating": 5.5,
+      "pros": [
+        "海港与服务行业",
+        "入场费较低"
+      ],
+      "cons": [
+        "传统港口行业，成长性有限",
+        "规模较小"
+      ],
+      "analysis": "永康控股(02523)将于7/8-7/10招股，7/13上市。海港服务企业。",
+      "recommendation": "传统行业小盘股，建议观望。"
     }
   ],
   "listing_tomorrow": [
     {
-      "code": "01688",
-      "name": "领益智造",
-      "name_en": "Lingyi iTech",
-      "listing_date": "6/26",
-      "ipo_price": 10.18,
+      "code": "00668",
+      "name": "安克创新",
+      "name_en": "Anker Innovations",
+      "listing_date": "7/2",
+      "ipo_price": 99.32,
       "dark_pool_price": null,
       "dark_pool_pct": null,
       "first_day_pct": null,
       "cumulative_pct": null
-    },
+    }
+  ],
+  "listed_ipos_2026": [
     {
-      "code": "03661",
-      "name": "圣邦股份",
-      "name_en": "SG Micro",
-      "listing_date": "6/26",
-      "ipo_price": 85.20,
+      "code": "09637",
+      "name": "礼邦医药-B",
+      "name_en": "Alebund",
+      "listing_date": "6/29",
+      "ipo_price": 22.6,
       "dark_pool_price": null,
       "dark_pool_pct": null,
-      "first_day_pct": null,
-      "cumulative_pct": null
+      "first_day_pct": 103.54,
+      "cumulative_pct": 103.54
     },
     {
-      "code": "09630",
-      "name": "芯碁微装",
-      "name_en": "CFMEE",
-      "listing_date": "6/26",
-      "ipo_price": 252.73,
-      "dark_pool_price": null,
-      "dark_pool_pct": null,
-      "first_day_pct": null,
-      "cumulative_pct": null
-    },
-    {
-      "code": "01956",
-      "name": "中科闻歌",
+      "code": "02672",
+      "name": "白鸽在线",
       "name_en": "",
+      "listing_date": "6/29",
+      "ipo_price": 15.6,
+      "dark_pool_price": null,
+      "dark_pool_pct": 283.0,
+      "first_day_pct": 367.95,
+      "cumulative_pct": 367.95
+    },
+    {
+      "code": "01191",
+      "name": "海光芯正",
+      "name_en": "",
+      "listing_date": "6/29",
+      "ipo_price": 114.0,
+      "dark_pool_price": null,
+      "dark_pool_pct": 80.0,
+      "first_day_pct": 44.74,
+      "cumulative_pct": 44.74
+    },
+    {
+      "code": "06228",
+      "name": "MERDEKA GOLD-DRS",
+      "name_en": "Merdeka Gold",
       "listing_date": "6/26",
-      "ipo_price": 60.70,
+      "ipo_price": 26.6,
       "dark_pool_price": null,
       "dark_pool_pct": null,
-      "first_day_pct": null,
-      "cumulative_pct": null
+      "first_day_pct": -6.54,
+      "cumulative_pct": -6.54
     },
     {
       "code": "02272",
@@ -188,60 +307,108 @@
       "ipo_price": 39.55,
       "dark_pool_price": null,
       "dark_pool_pct": null,
-      "first_day_pct": null,
-      "cumulative_pct": null
+      "first_day_pct": 203.92,
+      "cumulative_pct": 203.92
     },
     {
-      "code": "06228",
-      "name": "MERDEKA GOLD-DRS",
-      "name_en": "Merdeka Gold",
+      "code": "01956",
+      "name": "中科闻歌",
+      "name_en": "",
       "listing_date": "6/26",
-      "ipo_price": 26.60,
+      "ipo_price": 60.7,
+      "dark_pool_price": null,
+      "dark_pool_pct": null,
+      "first_day_pct": 84.02,
+      "cumulative_pct": 84.02
+    },
+    {
+      "code": "09630",
+      "name": "芯碁微装",
+      "name_en": "CFMEE",
+      "listing_date": "6/26",
+      "ipo_price": 252.73,
+      "dark_pool_price": null,
+      "dark_pool_pct": null,
+      "first_day_pct": 103.77,
+      "cumulative_pct": 103.77
+    },
+    {
+      "code": "03661",
+      "name": "圣邦股份",
+      "name_en": "SG Micro",
+      "listing_date": "6/26",
+      "ipo_price": 85.2,
+      "dark_pool_price": null,
+      "dark_pool_pct": null,
+      "first_day_pct": 47.07,
+      "cumulative_pct": 47.07
+    },
+    {
+      "code": "01688",
+      "name": "领益智造",
+      "name_en": "Lingyi iTech",
+      "listing_date": "6/26",
+      "ipo_price": 10.18,
+      "dark_pool_price": null,
+      "dark_pool_pct": null,
+      "first_day_pct": -4.62,
+      "cumulative_pct": -4.62
+    },
+    {
+      "code": "00668",
+      "name": "安克创新",
+      "listing_date": "7/2",
+      "ipo_price": 0,
       "dark_pool_price": null,
       "dark_pool_pct": null,
       "first_day_pct": null,
       "cumulative_pct": null
     },
     {
-      "code": "01191",
-      "name": "海光芯正",
-      "name_en": "",
-      "listing_date": "6/29",
-      "ipo_price": 114.00,
+      "code": "03952",
+      "name": "来福谐波",
+      "listing_date": "6/30",
+      "ipo_price": 85.5,
       "dark_pool_price": null,
       "dark_pool_pct": null,
-      "first_day_pct": null,
-      "cumulative_pct": null
+      "first_day_pct": 1.23,
+      "cumulative_pct": 1.23
     },
     {
-      "code": "02672",
-      "name": "白鸽在线",
-      "name_en": "",
-      "listing_date": "6/29",
-      "ipo_price": 20.28,
+      "code": "06915",
+      "name": "江西生物",
+      "listing_date": "6/30",
+      "ipo_price": 9.33,
       "dark_pool_price": null,
       "dark_pool_pct": null,
-      "first_day_pct": null,
-      "cumulative_pct": null
+      "first_day_pct": -13.0,
+      "cumulative_pct": -13.0
     },
     {
-      "code": "09637",
-      "name": "礼邦医药-B",
-      "name_en": "Alebund",
-      "listing_date": "6/29",
-      "ipo_price": 22.60,
+      "code": "06715",
+      "name": "鲟龙科技",
+      "listing_date": "6/30",
+      "ipo_price": 75.5,
       "dark_pool_price": null,
       "dark_pool_pct": null,
-      "first_day_pct": null,
-      "cumulative_pct": null
-    }
-  ],
-  "listed_ipos_2026": [
+      "first_day_pct": 50.99,
+      "cumulative_pct": 50.99
+    },
+    {
+      "code": "02697",
+      "name": "真健康医疗-B",
+      "listing_date": "6/30",
+      "ipo_price": 126.2,
+      "dark_pool_price": null,
+      "dark_pool_pct": null,
+      "first_day_pct": 216.96,
+      "cumulative_pct": 216.96
+    },
     {
       "code": "02335",
       "name": "麦科医药-B",
       "listing_date": "6/24",
-      "ipo_price": 18.20,
+      "ipo_price": 18.2,
       "dark_pool_price": null,
       "dark_pool_pct": null,
       "first_day_pct": 102.75,
@@ -251,7 +418,7 @@
       "code": "06106",
       "name": "仙工智能",
       "listing_date": "6/24",
-      "ipo_price": 101.60,
+      "ipo_price": 101.6,
       "dark_pool_price": null,
       "dark_pool_pct": null,
       "first_day_pct": 4.33,
@@ -261,11 +428,11 @@
       "code": "06132",
       "name": "华健未来-B",
       "listing_date": "6/23",
-      "ipo_price": 81.80,
-      "dark_pool_price": 79.10,
-      "dark_pool_pct": -3.30,
-      "first_day_pct": -56.89,
-      "cumulative_pct": -56.89
+      "ipo_price": 81.8,
+      "dark_pool_price": 79.1,
+      "dark_pool_pct": -3.3,
+      "first_day_pct": 23.47,
+      "cumulative_pct": 23.47
     },
     {
       "code": "06067",
